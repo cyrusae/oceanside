@@ -1,0 +1,52 @@
+$sanses: Helvetica, sans-serif;
+$serifs: Garamond, Times, serif;
+$smonos: 'Courier Prime', monospace;
+
+@mixin paraheight {
+ width: 100vw;
+ height: 100vh;
+ transform-style: preserve-3d;
+ -webkit-transform-style: preserve-3d;
+}
+
+
+html, body {
+ padding: 0px;
+ margin: 0px;
+}
+
+html {
+ overflow: hidden;
+}
+
+.corpse {
+ p {
+  font-family: $sanses;
+  font-size: 18px;
+ }
+ .quote {
+  font-family: $serifs;
+  font-size: 1.2em;
+ }
+}
+
+.navi {
+ font-family: smonos;
+}
+
+.certificate {
+ font-family: smonos;
+ font-size: 18px;
+ background-color: ghostwhite;
+ color: rebeccapurple;
+}
+
+div {
+ .stripes {
+  background-image: url("warming_stripes.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+}
