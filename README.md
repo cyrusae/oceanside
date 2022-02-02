@@ -1,9 +1,12 @@
 # project tag oceanside 
 
 Format: Remix.js website
+
 Purpose: Hosting CHID 480 final project 
 - (Static content, dynamic rendering, read-only)
+
 Status: Work in progress 
+
 Status of this page: Also a work in progress 
 
 ## contents 
