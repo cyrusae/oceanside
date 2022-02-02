@@ -45,6 +45,10 @@ A *corpse* is any div intended to be subject to *Spanner* before loading and the
 
 All *fragment*s in a *corpse* share a single background image (special case of *picture*). This staggers gradient generation/application if the text grows to the point of requiring multiple background images.
 
+### displaying the result
+
+The end result for the main page is one or more *corpse*s in order (i.e. groups of *fragment*s forming the essay body), followed by a *footer*.
+
 ### text formatting
 
 - Markdown parsed by remark-rehype (outside library) and modified by *Spanner* (personal) 
@@ -87,6 +91,8 @@ All *fragment*s in a *corpse* share a single background image (special case of *
 - Assigns each `glyph` in the *corpse* a `style='color: '` from the *palette*, based on its relative position according to *Vampire*
 - Overwrites the *corpse* in the DOM on load with this embalmed one 
 
+**To do:** Determine how *Triad* will interact with the possibility of different background color needs on the same page.
+
 ### image formatting
 
 #### Possible image roles: 
@@ -108,6 +114,42 @@ All *fragment*s in a *corpse* share a single background image (special case of *
 - Make text flow/wrap around non-section break images on large screens
 - Make those images exceed main column width (staggered next to text) on very large screens 
 
+### stylesheet(s)
+
+- Light text on dark (override for *fragment*s with special-case backgrounds), sans-serif body text
+- Links in monospace 
+- Flexbox (in most cases, a single column with sequential rows; see 'Stretch goals')
+
+#### Image types and their needs:
+
+##### Backgrounds:
+
+- Need a fallback background color that will interact similarly with the text 
+- Parallax animation to create sense that the background is the same height as the text is long 
+- If of a *fragment* requiring different text colors, specify alternate text color
+
+##### Backdrops (the hovering ones):
+
+- Backdrops' failure state is "does not display", nothing is dependent on this 
+- Backdrops need enter/exit animations including how long to hang around scrolling along with the text 
+
+##### Foreground images:
+
+- Need a 'background' of themselves blurred in order to create some desired effects 
+- Specify any effects on entering or leaving viewport
+- Specify maximum width and relevant behavior: full width with regards to text? what if that's too large?
+- Alt text displayed on click (?)
+
+##### Highlight quotes:
+
+- Image is itself a background; need fallback background color to match
+- Format text within the image: serif, appropriate colors, ability to ignore *Triad* if necessary (**how?**)
+- **How to:** make the text resize so that it's always going to fit inside a div whose size is defined by the size of the background image?
+
+#### Credits page:
+
+- Dark text on light, serif body text
+
 ## resources
 
 ### image sources
@@ -120,6 +162,10 @@ All *fragment*s in a *corpse* share a single background image (special case of *
 ### audio
 
 - [mixkit rain sounds](https://mixkit.co/free-sound-effects/rain/)
+
+### other
+
+- [animista css animations](https://animista.net/play/entrances)
 
 ## notes on idiosyncracies 
 
