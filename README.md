@@ -43,6 +43,7 @@ Environmental sound components tied to specific sections of prose. Fade in and o
 - Identifies text that is not part of an HTML tag, then uses grapheme-splitter to identify individual graphemes 
 - Surrounds each grapheme with `<span className='glyph'>` and `</span>`, so they can be manipulated after page load
 - Requires a Markdown compiler's output and a way to feed its results into the document 
+- Its results go in a *corpse* (because it takes the raw HTML that will form the document body)
 
 #### The *Triad*:
 
