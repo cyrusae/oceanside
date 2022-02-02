@@ -13,6 +13,7 @@ Status of this page: Also a work in progress
 
 ### text 
 
+Prose divided into sections as .md files. Displayed as a single column (full-width for narrow screens, fixed-width for wider ones).
 
 ### images
 
@@ -26,8 +27,23 @@ Environmental sound components tied to specific sections of prose. Fade in and o
 
 ### metadata / other
 
+Need adjacent credits page explaining project, media sources, context, links/about me. Alternate theme (different font type, inverted colors, no background image, etc.) to make it more clearly "backstage".
 
 ## technical
+
+### generating sections
+
+*Photographer* takes an image src, alt text, foreground text if being used as a quote background, and intended display preferences, and outputs the code for a *picture*.
+
+*Listener* takes the file path for a piece of audio and information about how and whether to a) fade and b) repeat, and outputs the code for a *sound*.
+
+*Stenographer* takes an .md file through remark, rehype, and *spanner*, producing the code for an *evidence*.
+
+A *fragment* is a combination of one or more *evidence*, up to one *sound*, up to one static and one scrolling background *picture*, and any foreground *picture*s.
+
+A *corpse* is any div intended to be subject to *Spanner* before loading and the *Triad* after. 
+
+All *fragment*s in a *corpse* share a single background image (special case of *picture*). This staggers gradient generation/application if the text grows to the point of requiring multiple background images.
 
 ### text formatting
 
@@ -73,25 +89,39 @@ Environmental sound components tied to specific sections of prose. Fade in and o
 
 ### image formatting
 
+#### Possible image roles: 
 
-### generating sections
+##### Background (z-index less than the *evidence* of a *corpse*):
 
-*Photographer* takes an image src, alt text, foreground text if being used as a quote background, and intended display preferences, and outputs the code for a *picture*.
+- Background of a *corpse* (pseudo-static, scroll speed determined by need to fill the length of the *corpse* without repeating or ending)
+- Background of a *fragment* (pseudo-static)
+- Superimposed backdrop of a *fragment* (vertical animation)
 
-*Listener* takes the file path for a piece of audio and information about how and whether to a) fade and b) repeat, and outputs the code for a *sound*.
+##### Foreground (z-index equal to or greater than the *evidence* of a *corpse*):
 
-*Stenographer* takes an .md file through remark, rehype, and *spanner*, producing the code for an *evidence*.
+- Section break image (at the end of one *fragment*, subjectively appears to be between *fragment*s; always full-width relative to the text)
+- Accent image (within a *fragment*)
+- Quote background (acts like an accent image but holds formatted foreground text)
 
-A *fragment* is a combination of one or more *evidence*, up to one *sound*, up to one static and one scrolling background *picture*, and any foreground *picture*s.
+###### 'Stretch goals' for foreground images:
 
-A *corpse* is any div intended to be subject to *Spanner* before loading and the *Triad* after. 
-
-All *fragment*s in a *corpse* share a single background image (special case of *picture*). This staggers gradient generation/application if the text grows to the point of requiring multiple background images.
+- Make text flow/wrap around non-section break images on large screens
+- Make those images exceed main column width (staggered next to text) on very large screens 
 
 ## resources
 
-### images
+### image sources
 
+- pngtree (superimposed backdrops and quote backgrounds)
+- NASA (aerial smoke and storm photography)
+- [warming stripes](https://showyourstripes.info) (*corpse* backgrounds)
+- personal/family (weather in Washington and Mexico)
 
 ### audio
 
+- [mixkit rain sounds](https://mixkit.co/free-sound-effects/rain/)
+
+## notes on idiosyncracies 
+
+- If the text is large to you that's because I made it
+- Unforeseen bugs/breaking may happen at very large screen sizes and/or if you force a reduced text size
