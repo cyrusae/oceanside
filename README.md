@@ -34,13 +34,41 @@ Environmental sound components tied to specific sections of prose. Fade in and o
 - Markdown parsed by remark-rehype (outside library) and modified by *Spanner* (personal) 
 - Gradient text colors generated in response to screen width after load (personal projects *Vampire*/*Colorist*/*Embalmer* aka *Triad*, outside libraries javascript-color-gradient and grapheme-splitter) for ease of reading 
 
-#### 'gradience' *(sic intentional)*, aka 'the lads', in more detail
+### 'gradience' *(sic intentional)*, aka 'the lads', in more detail
 
-##### *Spanner*:
+#### *Spanner*:
 
+- Happens once, server-side, before page load
 - Works with raw HTML after remark-rehype and before being displayed
 - Identifies text that is not part of an HTML tag, then uses grapheme-splitter to identify individual graphemes 
-- Surrounds each grapheme with `<span className='glyph'>` and `</span>`, 
+- Surrounds each grapheme with `<span className='glyph'>` and `</span>`, so they can be manipulated after page load
+- Requires a Markdown compiler's output and a way to feed its results into the document 
+
+#### The *Triad*:
+
+- After page load (lazy)
+- Three functions in sequence 
+
+##### *Vampire*:
+
+- Uses grapheme-splitter
+- Takes contents of *corpse* as they are on page load 
+- Finds all graphemes that are `glyph`s in the document 
+- Uses offset to find line breaks on user's screen 
+- Outputs number of lines and longest line in document 
+
+##### *Colorist*:
+
+- Uses javascript-color-gradient and the results rendered by *Vampire*
+- Has predetermined color options as constants depending on individual site color scheme 
+- Creates gradients whose length is equal to that of the longest line of `glyph`s, in a number equal to how many lines *Vampire* found
+- Outputs these gradients in order as its *palette* 
+
+##### *Embalmer*:
+
+- Takes *Vampire*'s numbers and *Colorist*'s *palette* 
+- Assigns each `glyph` in the *corpse* a `style='color: '` from the *palette*, based on its relative position according to *Vampire*
+- Overwrites the *corpse* in the DOM on load with this embalmed one 
 
 ### image formatting
 
