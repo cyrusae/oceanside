@@ -48,12 +48,16 @@ Environmental sound components tied to specific sections of prose. Fade in and o
 ### generating sections
 
 *Photographer* takes an image src, alt text, foreground text if being used as a quote background, and intended display preferences, and outputs the code for a *picture*.
+
 *Listener* takes the file path for a piece of audio and information about how and whether to a) fade and b) repeat, and outputs the code for a *sound*.
+
 *Stenographer* takes an .md file through remark, rehype, and *spanner*, producing the code for an *evidence*.
 
 A *fragment* is a combination of one or more *evidence*, up to one *sound*, up to one static and one scrolling background *picture*, and any foreground *picture*s.
 
-A *corpse* is any div intended to be subject to *Spanner* before loading and the *Triad* after. All *fragment*s in a *corpse* share a single background image (special case of *picture*). This staggers gradient generation/application if the text grows to the point of requiring multiple background images.
+A *corpse* is any div intended to be subject to *Spanner* before loading and the *Triad* after. 
+
+All *fragment*s in a *corpse* share a single background image (special case of *picture*). This staggers gradient generation/application if the text grows to the point of requiring multiple background images.
 
 ## resources
 
