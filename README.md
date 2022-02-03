@@ -37,17 +37,15 @@ Need adjacent credits page explaining project, media sources, context, links/abo
 
 *Listener* takes the file path for a piece of audio and information about how and whether to a) fade and b) repeat, and outputs the code for a *sound*.
 
-*Stenographer* takes an .md file through remark, rehype, and *spanner*, producing the code for an *evidence*.
+*Coroner* takes an .md file through remark, rehype, and *Spanner*, producing the code for a *corpse*. (A *corpse* is any div intended to be subject to the *Triad* after loading.) This staggers gradient generation/application.
 
-A *fragment* is a combination of one or more *evidence*, up to one *sound*, up to one static and one scrolling background *picture*, and any foreground *picture*s.
+A *scene* is a combination of one or more *corpse*s, up to one *sound*, up to one static and one scrolling background *picture*, and any foreground *picture*s.
 
-A *corpse* is any div intended to be subject to *Spanner* before loading and the *Triad* after. 
-
-All *fragment*s in a *corpse* share a single background image (special case of *picture*). This staggers gradient generation/application if the text grows to the point of requiring multiple background images.
+All *scene*s in an *argument* share a single background image (special case of *picture*). 
 
 ### displaying the result
 
-The end result for the main page is one or more *corpse*s in order (i.e. groups of *fragment*s forming the essay body), followed by a *footer*.
+The end result for the main page is one or more *argument*s in order (i.e. groups of *scene*s, comprising *corpse*s and their decorations, forming the essay body), followed by a *footer*.
 
 ### text formatting
 
@@ -97,16 +95,16 @@ The end result for the main page is one or more *corpse*s in order (i.e. groups 
 
 #### Possible image roles: 
 
-##### Background (z-index less than the *evidence* of a *corpse*):
+##### Background (z-index less than the *corpse*(s) in a *scene*):
 
-- Background of a *corpse* (pseudo-static, scroll speed determined by need to fill the length of the *corpse* without repeating or ending)
-- Background of a *fragment* (pseudo-static)
+- Background of an *argument* (pseudo-static, scroll speed determined by need to fill the length of the *argument* without repeating or ending)
+- Background of a *scene* (pseudo-static, z-index greater than that of its parent *argument*)
 - Superimposed backdrop of a *fragment* (vertical animation)
 
-##### Foreground (z-index equal to or greater than the *evidence* of a *corpse*):
+##### Foreground (z-index equal to or greater than the *corpse*(s) in a *scene*):
 
-- Section break image (at the end of one *fragment*, subjectively appears to be between *fragment*s; always full-width relative to the text)
-- Accent image (within a *fragment*)
+- Section break image (at the end of one *scene*, subjectively appears to be between *scene*s; always full-width relative to the text)
+- Accent image (within a *scene*)
 - Quote background (acts like an accent image but holds formatted foreground text)
 
 ###### 'Stretch goals' for foreground images:
@@ -114,9 +112,11 @@ The end result for the main page is one or more *corpse*s in order (i.e. groups 
 - Make text flow/wrap around non-section break images on large screens
 - Make those images exceed main column width (staggered next to text) on very large screens 
 
+This may not be possible while keeping the gradients working; large screens are not my priority regardless.
+
 ### stylesheet(s)
 
-- Light text on dark (override for *fragment*s with special-case backgrounds), sans-serif body text
+- Light text on dark (override for *scene*s with special-case backgrounds), sans-serif body text
 - Links in monospace 
 - Flexbox (in most cases, a single column with sequential rows; see 'Stretch goals')
 
@@ -126,7 +126,7 @@ The end result for the main page is one or more *corpse*s in order (i.e. groups 
 
 - Need a fallback background color that will interact similarly with the text 
 - Parallax animation to create sense that the background is the same height as the text is long 
-- If of a *fragment* requiring different text colors, specify alternate text color
+- If of a *scene* requiring different text colors, specify alternate text color
 
 ##### Backdrops (the hovering ones):
 
@@ -156,7 +156,7 @@ The end result for the main page is one or more *corpse*s in order (i.e. groups 
 
 - pngtree (superimposed backdrops and quote backgrounds)
 - NASA (aerial smoke and storm photography)
-- [warming stripes](https://showyourstripes.info) (*corpse* backgrounds)
+- [warming stripes](https://showyourstripes.info) (*argument* backgrounds)
 - personal/family (weather in Washington and Mexico)
 
 ### audio
