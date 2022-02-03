@@ -1,7 +1,12 @@
-export default function fragments() {
+import Raw1 from "./fragments/test1"
+// const a = Raw1.value();
+
+function Fragments() {
  return (
   <div>
-   <p>This is how we get text to go places.</p>
+   <Raw1 />
   </div>
  )
 }
+
+export default Fragments
