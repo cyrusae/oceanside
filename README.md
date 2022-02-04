@@ -143,7 +143,7 @@ This may not be possible while keeping the gradients working; large screens are 
 ##### Highlight quotes:
 
 - Image is itself a background; need fallback background color to match
-- Format text within the image: serif, appropriate colors, ability to ignore *Triad* if necessary (**how?**)
+- Format text within the image: serif, appropriate colors
 - **How to:** make the text resize so that it's always going to fit inside a div whose size is defined by the size of the background image?
 
 #### Credits page:
@@ -167,7 +167,31 @@ This may not be possible while keeping the gradients working; large screens are 
 
 - [animista css animations](https://animista.net/play/entrances)
 
-## notes on idiosyncracies 
+# notes on idiosyncracies 
 
 - If the text is large to you that's because I made it
 - Unforeseen bugs/breaking may happen at very large screen sizes and/or if you force a reduced text size
+
+## names
+
+### variable hierarchy in this project
+
+##### Simple names:
+
+- *picture*: images, made by *Photographer*
+- *sound*: background audio, made by *Listener*
+
+##### Themed names:
+
+1. *corpse* is the canonical name for body text modified by *Spanner* and the rest; *Coroner* arranges *corpse*s
+2. As a result, this project uses *scene*s to bridge the theme gap between what *gradience* makes and something more straightforward: "murder scenes" (full of *corpse*s) become "scenes" of the essay
+3. This makes it easy for *scene*s to come together to make *argument*s without interrupting the flow of internally consistent variables at any individual point
+4. I do genuinely consider this a priority because the way my brain works means it makes my code easier to read for me (me)
+
+### gradience 
+
+- Named due to its production of gradients ("brother may I have some gradience", as per oäts)
+- Also known as "lads" in order to encapsulate "*Spanner* and the Triad"
+- *Spanner* sometimes also is called *Cursed* to commemorate the majority of people's responses while I was writing it 
+- The Triad is called that because I couldn't think of another word for three things that go together on the spot
+- *Vampire* counts things; *Colorist* is not particularly unintuitive; *Embalmer* prettifies the *corpse*.
