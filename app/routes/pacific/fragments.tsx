@@ -1,10 +1,10 @@
-import Raw1 from "./fragments/test1"
 // const a = Raw1.value();
+import output from './fragments/test1'
 
 function Fragments() {
  return (
   <div>
-   <Raw1 />
+   { output }
   </div>
  )
 }

@@ -1,7 +1,8 @@
 import GraphemeSplitter from "grapheme-splitter";
 
-const tagOpen = '<'
-const tagClose = '>'
+const tagOpen: string = '<'
+const tagClose: string = '>'
+const otherChar: string = '/\w/'
 //const otherChar = new RegExp('/\w/')
 
 export default function Cursed(meat: string) {
@@ -30,8 +31,9 @@ export default function Cursed(meat: string) {
   } else {
    let scalpel = new GraphemeSplitter();
    
-   let start = slab.indexOf('/\w/');
-   let stop = slab.lastIndexOf('/\w/');
+   let start = slab.indexOf(otherChar);
+   let stop = slab.lastIndexOf(otherChar);
+   //This may or may not fix the issue where TS is failing on attempt to use a regular expression for this part 
 
    let autopsy = [];
    
