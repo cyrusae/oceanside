@@ -1,4 +1,5 @@
 import { LiveReload, Outlet } from 'remix'
+import Index from './routes'
 
 export default function App() {
  return (
@@ -8,8 +9,8 @@ export default function App() {
     <title>oceanside</title>
    </head>
    <body>
-    <h1>Hello World</h1>
     <Outlet />
+    <Index />
     <LiveReload />
    </body>
   </html>
