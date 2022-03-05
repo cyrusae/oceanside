@@ -10,6 +10,7 @@ export function links() {
 export default function Index() {
  return (
     <div id='beach'>
+     <Fragments />
      <p>Test directly in index.tsx too</p>
     </div>
   );

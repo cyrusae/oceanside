@@ -5,6 +5,7 @@ function Fragments() {
  return (
   <div>
    { Raw1 }
+   Test directly in fragments
   </div>
  )
 }
