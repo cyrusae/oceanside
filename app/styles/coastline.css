@@ -1,5 +1,5 @@
 * {
- background: url(/app/assets/backgrounds/bg_stripe_mx.png) no-repeat top;
+ background: url('../app/public/bg_stripe_mx.png');
 }
 
 div#beach {
