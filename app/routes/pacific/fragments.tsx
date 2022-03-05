@@ -4,6 +4,7 @@ import Raw1 from './fragments/test1'
 function Fragments() {
  return (
   <div>
+   { Raw1 }
   </div>
  )
 }

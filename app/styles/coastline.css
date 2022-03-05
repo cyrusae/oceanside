@@ -1,0 +1,11 @@
+* {
+ background: url("../assets/backgrounds/bg_stripe_mx.png") no-repeat top;
+}
+
+div#beach {
+ display: flex;
+ background-color: black;
+ color: white;
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
