@@ -1,13 +1,11 @@
 // const a = Raw1.value();
-import Raw1 from './fragments/test1'
+import Scene01 from './fragments/01';
 
-const Raw = Raw1;
 
 function Fragments() {
  return (
   <div>
-   { Raw }
-   Test directly in fragments
+   <Scene01 />
   </div>
  )
 }

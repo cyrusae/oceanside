@@ -2,7 +2,7 @@
 export default function Footer() {
  return (
   <div id='feet'>
-   Footer text here
+   <div>Footer text here</div>
    <div><a href='/metadata/credit'>Credits</a></div>
   </div>
  )
