@@ -1,5 +1,6 @@
 import { LiveReload, Outlet, Links } from 'remix'
 import Index from './routes'
+import Footer from './routes/footer'
 
 // Outlet may create duplicates from index; temporarily removing `    <Outlet />`.
 
@@ -12,7 +13,10 @@ export default function App() {
     <title>oceanside</title>
    </head>
    <body>
-    <Index />
+    <div id='beach'>
+    <Outlet />
+    </div>
+    <Footer />
     <LiveReload />
    </body>
   </html>

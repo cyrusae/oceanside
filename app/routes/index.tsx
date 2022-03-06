@@ -9,7 +9,7 @@ export function links() {
 
 export default function Index() {
  return (
-    <div id='beach'>
+    <div>
      <Fragments />
      <p>Test directly in index.tsx too</p>
     </div>
