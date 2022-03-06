@@ -23,12 +23,20 @@ div.scene {
  padding: 1rem;
 }
 
+#01 {
+ background-image: url('/rain_bg.png');
+}
+
 a, a:hover, a:visited {
  color: seagreen;
 }
 
 a:visited {
  text-decoration: none;
+}
+
+img {
+ max-width: 100%;
 }
 
 #feet {
@@ -62,7 +70,17 @@ div.glacier {
  width: 100%;
 }
 
-.glacier > .quote {
+div#WAW {
+ width: inherit;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ position: relative;
+}
+
+#WAW > img {
+ width: 100%;
+}
+
+.quote {
  margin: 0 auto;
  position: absolute;
  top: 45%;
@@ -71,7 +89,7 @@ div.glacier {
  text-shadow: 1px 1px black;
 }
 
-.glacier > .credit {
+.credit {
  position: absolute;
  bottom: 15vw;
  left: 50%;
