@@ -160,11 +160,6 @@ img#kicker {
  * animation flip-in-hor-top
  * ----------------------------------------
  */
-
-.flip-in-hor-top {
-	-webkit-animation: flip-in-hor-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: flip-in-hor-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
 @keyframes flip-in-hor-top {
   0% {
     transform: rotateX(-80deg);
