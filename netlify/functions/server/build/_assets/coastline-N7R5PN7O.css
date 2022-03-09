@@ -21,10 +21,10 @@ body {
  padding: 1rem;
 }
 
-#one {
+#one > .content {
  background-image: url('/snow_bg.png');
+ background-clip: content-box;
  background-size: cover;
- background-position: top;
 }
 
 a, a:hover, a:visited {

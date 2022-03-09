@@ -24,7 +24,7 @@ body {
 #one {
  background-image: url('/snow_bg.png');
  background-size: cover;
- background-position: top;
+ background-position-x: 0;
 }
 
 a, a:hover, a:visited {

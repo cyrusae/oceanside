@@ -18,13 +18,11 @@ body {
 #beach > div {
  color: white;
  font-family: sans-serif;
- padding: 1rem;
 }
 
-#one {
- background-image: url('/snow_bg.png');
- background-size: cover;
- background-position: top;
+
+div#one {
+ position: relative;
 }
 
 a, a:hover, a:visited {
@@ -39,11 +37,14 @@ img {
  max-width: 100%;
 }
 
-img.sbg {
- clip-path: content-box;
+
+.content {
+ position: absolute;
+ margin: 0 auto;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }
-
-
 
 #feet {
  background: rgba(360, 360, 360, 0.8);

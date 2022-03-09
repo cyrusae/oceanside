@@ -21,10 +21,24 @@ body {
  padding: 1rem;
 }
 
+
 #one {
- background-image: url('/snow_bg.png');
- background-size: cover;
- background-position: top;
+ position: relative;
+}
+
+#one img {
+ z-index: 0;
+ overflow: hidden;
+ top: 0;
+}
+
+#one .sbg {
+ position: absolute;
+}
+
+#one .content {
+ position: absolute;
+ top: 10px;
 }
 
 a, a:hover, a:visited {

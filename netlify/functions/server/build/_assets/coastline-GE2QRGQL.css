@@ -9,8 +9,6 @@ body {
 #beach {
  display: grid;
  margin: 0 auto;
- grid-template-columns: 1fr;
- grid-auto-rows: minmax(100px, auto);
  background: rgba(10, 10, 10, 0.85);
  max-width: 750px;
 }
@@ -18,13 +16,15 @@ body {
 #beach > div {
  color: white;
  font-family: sans-serif;
+}
+
+div.scene {
+ color: inherit;
  padding: 1rem;
 }
 
-#one {
- background-image: url('/snow_bg.png');
- background-size: cover;
- background-position: top;
+#01 {
+ position: relative;
 }
 
 a, a:hover, a:visited {
@@ -38,12 +38,6 @@ a:visited {
 img {
  max-width: 100%;
 }
-
-img.sbg {
- clip-path: content-box;
-}
-
-
 
 #feet {
  background: rgba(360, 360, 360, 0.8);

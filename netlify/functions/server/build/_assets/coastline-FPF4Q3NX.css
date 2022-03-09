@@ -21,11 +21,11 @@ body {
  padding: 1rem;
 }
 
+
 #one {
- background-image: url('/snow_bg.png');
- background-size: cover;
- background-position: top;
+ position: relative;
 }
+
 
 a, a:hover, a:visited {
  color: seagreen;

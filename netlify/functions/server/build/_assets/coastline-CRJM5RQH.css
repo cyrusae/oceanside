@@ -18,13 +18,23 @@ body {
 #beach > div {
  color: white;
  font-family: sans-serif;
- padding: 1rem;
 }
 
+
 #one {
- background-image: url('/snow_bg.png');
- background-size: cover;
- background-position: top;
+ background: url('/snow_bg.png');
+ position: absolute;
+}
+
+#one img {
+ z-index: 1;
+ position: relative;
+}
+
+#one .content {
+ z-index: 3;
+ position: relative;
+ top: 1rem;
 }
 
 a, a:hover, a:visited {

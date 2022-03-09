@@ -14,7 +14,6 @@ export default function Index() {
  return (
     <div>
      <Fragments />
-     <p>Test directly in index.tsx too</p>
      <GlacierA />
      <GlacierB />
      <WAVE />

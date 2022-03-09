@@ -8,7 +8,6 @@ function Fragments() {
  return (
   <div>
    <Scene01 />
-   <Ohio />
    <Washington />
   </div>
  )
