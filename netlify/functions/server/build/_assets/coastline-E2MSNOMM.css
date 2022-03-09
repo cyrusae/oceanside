@@ -1,0 +1,124 @@
+
+body {
+ background: black url('/bg_stripe_mx.png');
+ background-repeat: repeat-x;
+ font-size: 16pt;
+ padding: 1vh;
+}
+
+#beach {
+ display: grid;
+ margin: 0 auto;
+ grid-template-columns: 1fr;
+ grid-auto-rows: minmax(100px, auto);
+ background: rgba(10, 10, 10, 0.85);
+ max-width: 750px;
+}
+
+#beach > div {
+ color: white;
+ font-family: sans-serif;
+ padding: 1rem;
+}
+
+#one {
+ background-image: url('/snow_bg.png');
+ background-size: cover;
+ background-position: top;
+}
+
+a, a:hover, a:visited {
+ color: seagreen;
+}
+
+a:visited {
+ text-decoration: none;
+}
+
+img {
+ max-width: 100%;
+}
+
+img.sbg {
+ clip-path: content-box;
+}
+
+
+
+#feet {
+ background: rgba(360, 360, 360, 0.8);
+ font-size: 0.65em;
+ font-family: monospace;
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ position: fixed;
+ bottom: 0;
+}
+
+#feet > div {
+ padding: 0.5rem;
+}
+
+/* Quotes and poems */
+
+h5 {
+ text-align: center;
+}
+
+div.glacier {
+ width: inherit;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ position: relative;
+}
+
+.glacier > img {
+ width: 100%;
+}
+
+div#WAW {
+ width: inherit;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ position: relative;
+}
+
+#WAW > img {
+ width: 100%;
+}
+
+.quote {
+ margin: 0 auto;
+ position: absolute;
+ top: 45%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-shadow: 1px 1px black;
+}
+
+.glacier .credit {
+ position: absolute;
+ bottom: 15vw;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+#WAW .credit {
+ position: absolute;
+ bottom: 20vw;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+div.credit {
+ background-color: rgba(360, 360, 360, 0.8);
+ color: black;
+ text-align: center;
+ font-style: oblique;
+ text-shadow: none;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 0.5em;
+}
+
+img#kicker {
+ max-width: 100%;
+}

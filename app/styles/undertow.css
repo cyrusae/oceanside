@@ -1,0 +1,6 @@
+div#feet {
+ background: rgba(100, 100, 100, 0.5);
+ font-size: 12pt;
+ font-family: monospace;
+ display: flex;
+}

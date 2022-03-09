@@ -1,0 +1,157 @@
+{
+  "version": "31d99182",
+  "entry": {
+    "module": "/build/entry.client-UZKE3B5F.js",
+    "imports": [
+      "/build/_shared/chunk-CXZEYTSD.js",
+      "/build/_shared/chunk-E7VMOUYL.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "module": "/build/root-FKFTYTZP.js",
+      "imports": [
+        "/build/_shared/chunk-YBMZ2EMO.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/footer": {
+      "id": "routes/footer",
+      "parentId": "root",
+      "path": "footer",
+      "module": "/build/routes/footer-AWPW4EOJ.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "index": true,
+      "module": "/build/routes/index-3ITK35XQ.js",
+      "imports": [
+        "/build/_shared/chunk-SJSJM725.js",
+        "/build/_shared/chunk-RRUZDOV3.js",
+        "/build/_shared/chunk-CIDWYRZM.js",
+        "/build/_shared/chunk-AD3IYW64.js",
+        "/build/_shared/chunk-UB6PEIMA.js",
+        "/build/_shared/chunk-RRLVBHP6.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/metadata/credit": {
+      "id": "routes/metadata/credit",
+      "parentId": "root",
+      "path": "metadata/credit",
+      "module": "/build/routes/metadata/credit-KMEXABZJ.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments": {
+      "id": "routes/pacific/fragments",
+      "parentId": "root",
+      "path": "pacific/fragments",
+      "module": "/build/routes/pacific/fragments-U3HQV7OT.js",
+      "imports": [
+        "/build/_shared/chunk-SJSJM725.js",
+        "/build/_shared/chunk-RRUZDOV3.js",
+        "/build/_shared/chunk-CIDWYRZM.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/01": {
+      "id": "routes/pacific/fragments/01",
+      "parentId": "routes/pacific/fragments",
+      "path": "01",
+      "module": "/build/routes/pacific/fragments/01-IRHWR5NH.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/poem-glacier": {
+      "id": "routes/pacific/fragments/poem-glacier",
+      "parentId": "routes/pacific/fragments",
+      "path": "poem-glacier",
+      "module": "/build/routes/pacific/fragments/poem-glacier-JL4H73EH.js",
+      "imports": [
+        "/build/_shared/chunk-UB6PEIMA.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/poem-wave": {
+      "id": "routes/pacific/fragments/poem-wave",
+      "parentId": "routes/pacific/fragments",
+      "path": "poem-wave",
+      "module": "/build/routes/pacific/fragments/poem-wave-L7MBQ2LR.js",
+      "imports": [
+        "/build/_shared/chunk-RRLVBHP6.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/stripe-ohio": {
+      "id": "routes/pacific/fragments/stripe-ohio",
+      "parentId": "routes/pacific/fragments",
+      "path": "stripe-ohio",
+      "module": "/build/routes/pacific/fragments/stripe-ohio-AQV4U26J.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/stripe-washington": {
+      "id": "routes/pacific/fragments/stripe-washington",
+      "parentId": "routes/pacific/fragments",
+      "path": "stripe-washington",
+      "module": "/build/routes/pacific/fragments/stripe-washington-TMUTVUTK.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/stripe-whamline": {
+      "id": "routes/pacific/fragments/stripe-whamline",
+      "parentId": "routes/pacific/fragments",
+      "path": "stripe-whamline",
+      "module": "/build/routes/pacific/fragments/stripe-whamline-XQHOORIF.js",
+      "imports": [
+        "/build/_shared/chunk-AD3IYW64.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/test1": {
+      "id": "routes/pacific/fragments/test1",
+      "parentId": "routes/pacific/fragments",
+      "path": "test1",
+      "module": "/build/routes/pacific/fragments/test1-SXWKJUA4.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    }
+  },
+  "url": "/build/manifest-31D99182.js"
+}
