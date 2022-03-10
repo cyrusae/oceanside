@@ -45,10 +45,6 @@ a:visited {
  text-decoration: none;
 }
 
-img {
- max-width: 100%;
-}
-
 div.hero {
  background-color:rgba(360, 360, 360, 0.8);
  padding: 1rem;
@@ -89,19 +85,19 @@ h5 {
 }
 
 .poem {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  position: relative;
 }
 
-.glacier > img {
+.glacier img {
  width: 100%;
 }
 
-#WAW > img {
+#WAW img {
  width: 100%;
 }
 
 .quote {
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  margin: 0 auto;
  position: absolute;
  top: 45%;

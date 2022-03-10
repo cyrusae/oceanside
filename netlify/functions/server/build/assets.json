@@ -1,5 +1,5 @@
 {
-  "version": "31d99182",
+  "version": "706b8a15",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -11,10 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-FKFTYTZP.js",
-      "imports": [
-        "/build/_shared/chunk-YBMZ2EMO.js"
-      ],
+      "module": "/build/root-A23SIDKE.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -24,7 +21,10 @@
       "id": "routes/footer",
       "parentId": "root",
       "path": "footer",
-      "module": "/build/routes/footer-AWPW4EOJ.js",
+      "module": "/build/routes/footer-JAY6CC4B.js",
+      "imports": [
+        "/build/_shared/chunk-O6MNJ7SS.js"
+      ],
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -34,14 +34,15 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-3ITK35XQ.js",
+      "module": "/build/routes/index-M4HK3BQX.js",
       "imports": [
-        "/build/_shared/chunk-SJSJM725.js",
+        "/build/_shared/chunk-ADHGEMSM.js",
+        "/build/_shared/chunk-O6MNJ7SS.js",
+        "/build/_shared/chunk-222H22BJ.js",
         "/build/_shared/chunk-RRUZDOV3.js",
-        "/build/_shared/chunk-CIDWYRZM.js",
+        "/build/_shared/chunk-6UH2377Q.js",
         "/build/_shared/chunk-AD3IYW64.js",
-        "/build/_shared/chunk-UB6PEIMA.js",
-        "/build/_shared/chunk-RRLVBHP6.js"
+        "/build/_shared/chunk-MHA4STAI.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -52,7 +53,7 @@
       "id": "routes/metadata/credit",
       "parentId": "root",
       "path": "metadata/credit",
-      "module": "/build/routes/metadata/credit-KMEXABZJ.js",
+      "module": "/build/routes/metadata/credit-UKAULCEO.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -62,11 +63,11 @@
       "id": "routes/pacific/fragments",
       "parentId": "root",
       "path": "pacific/fragments",
-      "module": "/build/routes/pacific/fragments-U3HQV7OT.js",
+      "module": "/build/routes/pacific/fragments-ID26CGCA.js",
       "imports": [
-        "/build/_shared/chunk-SJSJM725.js",
+        "/build/_shared/chunk-222H22BJ.js",
         "/build/_shared/chunk-RRUZDOV3.js",
-        "/build/_shared/chunk-CIDWYRZM.js"
+        "/build/_shared/chunk-6UH2377Q.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -87,10 +88,30 @@
       "id": "routes/pacific/fragments/poem-glacier",
       "parentId": "routes/pacific/fragments",
       "path": "poem-glacier",
-      "module": "/build/routes/pacific/fragments/poem-glacier-JL4H73EH.js",
+      "module": "/build/routes/pacific/fragments/poem-glacier-NLFSUZZE.js",
       "imports": [
-        "/build/_shared/chunk-UB6PEIMA.js"
+        "/build/_shared/chunk-MHA4STAI.js"
       ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/poem-letsay": {
+      "id": "routes/pacific/fragments/poem-letsay",
+      "parentId": "routes/pacific/fragments",
+      "path": "poem-letsay",
+      "module": "/build/routes/pacific/fragments/poem-letsay-3HBBVSA4.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/poem-ode": {
+      "id": "routes/pacific/fragments/poem-ode",
+      "parentId": "routes/pacific/fragments",
+      "path": "poem-ode",
+      "module": "/build/routes/pacific/fragments/poem-ode-2ZMZWCQL.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -100,10 +121,20 @@
       "id": "routes/pacific/fragments/poem-wave",
       "parentId": "routes/pacific/fragments",
       "path": "poem-wave",
-      "module": "/build/routes/pacific/fragments/poem-wave-L7MBQ2LR.js",
+      "module": "/build/routes/pacific/fragments/poem-wave-GMI7TXCD.js",
       "imports": [
-        "/build/_shared/chunk-RRLVBHP6.js"
+        "/build/_shared/chunk-ADHGEMSM.js"
       ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/poem-winsum": {
+      "id": "routes/pacific/fragments/poem-winsum",
+      "parentId": "routes/pacific/fragments",
+      "path": "poem-winsum",
+      "module": "/build/routes/pacific/fragments/poem-winsum-INB6VK7S.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -123,7 +154,7 @@
       "id": "routes/pacific/fragments/stripe-washington",
       "parentId": "routes/pacific/fragments",
       "path": "stripe-washington",
-      "module": "/build/routes/pacific/fragments/stripe-washington-TMUTVUTK.js",
+      "module": "/build/routes/pacific/fragments/stripe-washington-7X6YODAG.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -153,5 +184,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-31D99182.js"
+  "url": "/build/manifest-706B8A15.js"
 }

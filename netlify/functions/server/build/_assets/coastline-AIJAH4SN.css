@@ -9,17 +9,9 @@ body {
  display: grid;
  margin: 0 auto;
  grid-template-columns: 1fr;
+ grid-auto-rows: minmax(100px, auto);
  background: rgba(10, 10, 10, 0.85);
  max-width: 750px;
-}
-
-#kicker {
- padding: 0;
- margin: 0;
- width: 100vw;
- bottom: 0;
- box-sizing: border-box;
- max-width: none;
 }
 
 #beach > div {
@@ -63,10 +55,6 @@ div.hero {
  opacity: 0;
 }
 
-#metadata #kicker {
- display: none;
-}
-
 #feet {
  background: rgba(360, 360, 360, 0.8);
  font-size: 0.65em;
@@ -88,7 +76,9 @@ h5 {
  text-align: center;
 }
 
-.poem {
+div.glacier {
+ width: inherit;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  position: relative;
 }
 
@@ -96,23 +86,23 @@ h5 {
  width: 100%;
 }
 
+div#WAW {
+ width: inherit;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ position: relative;
+}
+
 #WAW > img {
  width: 100%;
 }
 
 .quote {
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  margin: 0 auto;
  position: absolute;
  top: 45%;
  left: 50%;
  transform: translate(-50%, -50%);
  text-shadow: 1px 1px black;
-}
-
-#III .quote {
- padding: 2rem;
- top: 48%;
 }
 
 .glacier .credit {
@@ -123,7 +113,7 @@ h5 {
 }
 
 #III .credit {
- bottom: 20vw;
+ bottom: 23vw;
 }
 
 #WAW .credit {

@@ -1,6 +1,6 @@
 export default function WAVE() {
  return (
-  <div id='WAW'>
+  <div id='WAW' className='poem'>
   <img src='/red_quote_bg.png'/>
    <div className='quote'><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; to insatiate tempest, unquelled <br/>
    by prayer nor cigarette, careless, mean,</p>

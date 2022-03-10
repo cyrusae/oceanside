@@ -18,8 +18,7 @@ body {
  margin: 0;
  width: 100vw;
  bottom: 0;
- box-sizing: border-box;
- max-width: none;
+ box-sizing: content-box;
 }
 
 #beach > div {
@@ -89,6 +88,8 @@ h5 {
 }
 
 .poem {
+ width: inherit;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  position: relative;
 }
 
@@ -101,7 +102,6 @@ h5 {
 }
 
 .quote {
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  margin: 0 auto;
  position: absolute;
  top: 45%;
