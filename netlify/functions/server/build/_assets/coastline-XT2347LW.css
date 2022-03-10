@@ -17,16 +17,13 @@ body {
 #beach > div {
  color: white;
  font-family: sans-serif;
+ margin: 1rem;
 }
 
 #one {
  background-image: url('/snow_bg.png');
  background-size: cover;
  background-position: center;
-}
-
-.scene {
- padding: 1rem;
 }
 
 a, a:hover, a:visited {

@@ -25,10 +25,6 @@ body {
  background-position: center;
 }
 
-.scene {
- padding: 1rem;
-}
-
 a, a:hover, a:visited {
  color: seagreen;
 }
