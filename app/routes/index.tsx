@@ -5,6 +5,7 @@ import styles from '../styles/coastline.css'
 import { GlacierA, GlacierB, GlacierC } from "./pacific/fragments/poem-glacier";
 import WAVE from "./pacific/fragments/poem-wave";
 import Wham from "./pacific/fragments/stripe-whamline";
+import Footer from "./footer";
 
 export function links() {
  return [{ rel: 'stylesheet', href: styles }]
@@ -13,12 +14,14 @@ export function links() {
 export default function Index() {
  return (
     <div>
-     <Fragments />
+     <div id='beach'>     <Fragments />
      <GlacierA />
      <GlacierB />
      <WAVE />
      <GlacierC />
+     </div>
      <Wham />
+     <Footer />
     </div>
   );
 }

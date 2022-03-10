@@ -1,6 +1,7 @@
 import { LiveReload, Outlet, Links } from 'remix'
 import Index from './routes'
 import Footer from './routes/footer'
+import Wham from './routes/pacific/fragments/stripe-whamline'
 
 // Outlet may create duplicates from index; temporarily removing `    <Outlet />`.
 
@@ -10,13 +11,10 @@ export default function App() {
    <head>
     <Links />
     <meta charSet='UTF-8' />
-    <title>oceanside</title>
+    <title>what the weather doesn't</title>
    </head>
    <body>
-    <div id='beach'>
     <Outlet />
-    </div>
-    <Footer />
     <LiveReload />
    </body>
   </html>
