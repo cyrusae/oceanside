@@ -1,5 +1,5 @@
 {
-  "version": "31d99182",
+  "version": "1f7ea354",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -11,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-FKFTYTZP.js",
+      "module": "/build/root-QEMVTV3R.js",
       "imports": [
         "/build/_shared/chunk-YBMZ2EMO.js"
       ],
@@ -153,5 +153,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-31D99182.js"
+  "url": "/build/manifest-1F7EA354.js"
 }

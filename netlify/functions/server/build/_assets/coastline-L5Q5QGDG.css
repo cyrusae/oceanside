@@ -44,6 +44,11 @@ html, body {
 .solid {
   z-index: 1;
   position: relative;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .viewport {

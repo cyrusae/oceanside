@@ -1,87 +1,34 @@
-html, body {
- height: 100%;
- margin: 0;
- overflow: hidden;
- font-size: 18px;
-}
 
-* {
- box-sizing: border-box;
-}
-
-.viewport {
+.clime {
+ font-size: 16pt;
+ width: 100%;
  height: 100%;
- overflow-x: hidden;
- overflow-y: auto;
- position: relative;
- -webkit-overflow-scrolling: touch;
-}
-
-#clime {
- height: 100%;
- max-width: 750px;
  overflow-x: hidden;
  overflow-y: hidden;
  perspective: 1px;
  perspective-origin: 0 0;
 }
 
-.parallax {
+div.parallax {
  background-size: cover;
- background-image: url('/bg_stripe_mx.png');
- box-sizing: border-box;
  width: 100%;
  height: 130vh;
- position: sticky;
  margin-bottom: -130vh;
 }
 
-.scene {
-  height: 150vh;
-  padding: 5vh 10vw;
-}
-
-.solid {
-  z-index: 1;
-  position: relative;
-}
-
-.viewport {
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: relative;
-  -webkit-overflow-scrolling: touch;
-}
-
-.container {
-  z-index: 1;
-  position: relative;
-}
-
-.overflow-parallax #overflow,
-.sticky-parallax #container {
-  perspective: 1px;
-  perspective-origin: 0% 0%;
-}
-
-.overflow-parallax #container {
-  transform-style: preserve-3d;
-}
-
-.sticky-parallax #parallax {
-  position: -webkit-sticky;
-  top: 0;
+#tapestry {
+ background-image: url('/bg_stripe_mx.png');
 }
 
 #beach {
+ transform-origin: 0 0;
+ transform: translateZ(-2px) scale(3);
  display: grid;
  margin: 0 auto;
  grid-template-columns: 1fr;
  grid-auto-rows: minmax(100px, auto);
  background: rgba(10, 10, 10, 0.85);
  max-width: 750px;
- transform-style: preserve-3d;
 }
 
 #beach > div {
