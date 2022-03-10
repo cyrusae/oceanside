@@ -38,22 +38,16 @@ a:visited {
 }
 
 img {
- max-width: 100%;
+ width: 90%;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }
 
-div.hero {
+div.img {
  background-color:rgba(360, 360, 360, 0.8);
- padding: 1rem;
 }
 
-#Washington .img {
- background-image: url('/stripes_wa.png');
- background-size: contain;
-}
-
-.img img {
- opacity: 0;
-}
 
 #feet {
  background: rgba(360, 360, 360, 0.8);

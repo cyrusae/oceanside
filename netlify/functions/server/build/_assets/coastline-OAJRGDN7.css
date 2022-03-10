@@ -43,6 +43,11 @@ img {
 
 div.hero {
  background-color:rgba(360, 360, 360, 0.8);
+ position: relative;
+}
+
+.hero .img {
+ margin: 1rem;
  padding: 1rem;
 }
 

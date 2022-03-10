@@ -39,21 +39,11 @@ a:visited {
 
 img {
  max-width: 100%;
+ border: rgba(360, 360, 360, 0.8) 1rem;
 }
 
-div.hero {
- background-color:rgba(360, 360, 360, 0.8);
- padding: 1rem;
-}
 
-#Washington .img {
- background-image: url('/stripes_wa.png');
- background-size: contain;
-}
 
-.img img {
- opacity: 0;
-}
 
 #feet {
  background: rgba(360, 360, 360, 0.8);

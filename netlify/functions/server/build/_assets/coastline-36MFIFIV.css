@@ -46,6 +46,12 @@ div.hero {
  padding: 1rem;
 }
 
+.hero .img {
+ margin: 1rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
 #Washington .img {
  background-image: url('/stripes_wa.png');
  background-size: contain;

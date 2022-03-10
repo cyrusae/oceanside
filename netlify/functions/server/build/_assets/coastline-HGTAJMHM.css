@@ -43,6 +43,11 @@ img {
 
 div.hero {
  background-color:rgba(360, 360, 360, 0.8);
+ position: relative;
+}
+
+.hero .img {
+ margin: 0 auto;
  padding: 1rem;
 }
 
@@ -52,7 +57,7 @@ div.hero {
 }
 
 .img img {
- opacity: 0;
+ z-index: -50;
 }
 
 #feet {

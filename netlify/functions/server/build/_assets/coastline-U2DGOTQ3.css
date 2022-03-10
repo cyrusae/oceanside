@@ -43,17 +43,18 @@ img {
 
 div.hero {
  background-color:rgba(360, 360, 360, 0.8);
+ position: relative;
+}
+
+.hero .img {
+ margin: 0 auto;
  padding: 1rem;
 }
 
 #Washington .img {
  background-image: url('/stripes_wa.png');
- background-size: contain;
 }
 
-.img img {
- opacity: 0;
-}
 
 #feet {
  background: rgba(360, 360, 360, 0.8);
