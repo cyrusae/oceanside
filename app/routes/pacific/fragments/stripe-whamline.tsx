@@ -1,6 +1,7 @@
 
 export default function Wham() {
  return (
-  <img id='kicker' src='/climate_stripes_mx.png' aria-describedby="" aria-details="" className='flip-in-hor-top' />
+  <div id='kicker'><img src='/climate_stripes_mx.png' aria-describedby="" aria-details="" className='fade-in' />
+   </div>
  )
 }

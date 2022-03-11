@@ -13,15 +13,17 @@ export function links() {
 
 export default function Index() {
  return (
-    <div>
-     <div id='beach'>     <Fragments />
+    <div id='water'>
+     <div id='beach'>
+     <Fragments />
      <GlacierA />
      <GlacierB />
      <WAVE />
      <GlacierC />
-     </div>
+     
      <Wham />
-     <Footer />
     </div>
+         <Footer />
+</div>
   );
 }
