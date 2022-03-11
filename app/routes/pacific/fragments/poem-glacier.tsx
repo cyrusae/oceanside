@@ -1,7 +1,7 @@
 export function GlacierA() {
  return (
   <div className='glacier poem' id='III'>
-   <img src='/blue_quote_bg_sm.png' id='blueqs' className='fade-in'/>
+   <img src='/blue_quote_bg_va_ph.png' className='fade-in PLACEHOLDER'/>
    <div className='quote text-focus-in'><p><h5>III</h5>
    The glacier absorbed greenhouse gases. <br/>
    We are a large part of the biosphere.</p>
@@ -14,7 +14,7 @@ export function GlacierA() {
 export function GlacierB() {
  return (
   <div className='glacier poem' id='V'>
-  <img src='/blue_quote_bg.png' id='blueq' className='fade-in'/>
+  <img src='/blue_quote_bg_sm.png' id='blueq' className='fade-in'/>
    <div className='quote text-focus-in'><p><h5>V</h5>
    We do not know which to fear more,<br/>
    The terror of change<br/>
