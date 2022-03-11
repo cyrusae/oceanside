@@ -117,7 +117,6 @@ h5 {
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  font-size: 1.5rem;
  margin: 0 auto;
- line-height: 120%;
  position: absolute;
  top: 50%;
  left: 50%;
@@ -155,14 +154,6 @@ h5 {
 
 #V .credit {
  bottom: 21vw;
-}
-
-#VIII .quote {
- top: 45%;
-}
-
-#VIII .credit {
- bottom: 22vw;
 }
 
 .credit {
@@ -203,13 +194,8 @@ div.credit {
  line-height: 125%;
 }
 
-#Ode p {
- padding: 0;
- margin: 0.3rem;
-}
-
 #Ode .credit {
- bottom: 10vw;
+ bottom: 30vw;
 }
 
 /* Attempted homebrew parallax */

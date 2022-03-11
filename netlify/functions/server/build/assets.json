@@ -1,5 +1,5 @@
 {
-  "version": "15710cb9",
+  "version": "0351a205",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,17 +34,17 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-XYTOQFZS.js",
+      "module": "/build/routes/index-N4FLCZZV.js",
       "imports": [
         "/build/_shared/chunk-O6MNJ7SS.js",
-        "/build/_shared/chunk-JCLZ6U65.js",
+        "/build/_shared/chunk-DP77HPKT.js",
         "/build/_shared/chunk-GY7KZU4J.js",
+        "/build/_shared/chunk-KGKFDRMC.js",
         "/build/_shared/chunk-222H22BJ.js",
         "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-6UH2377Q.js",
         "/build/_shared/chunk-MMJH7CGR.js",
-        "/build/_shared/chunk-ITP3FRAA.js",
-        "/build/_shared/chunk-YTNKB5DV.js"
+        "/build/_shared/chunk-ITP3FRAA.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -113,10 +113,7 @@
       "id": "routes/pacific/fragments/poem-letsay",
       "parentId": "routes/pacific/fragments",
       "path": "poem-letsay",
-      "module": "/build/routes/pacific/fragments/poem-letsay-4MKAXTLD.js",
-      "imports": [
-        "/build/_shared/chunk-YTNKB5DV.js"
-      ],
+      "module": "/build/routes/pacific/fragments/poem-letsay-3HBBVSA4.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -126,7 +123,10 @@
       "id": "routes/pacific/fragments/poem-ode",
       "parentId": "routes/pacific/fragments",
       "path": "poem-ode",
-      "module": "/build/routes/pacific/fragments/poem-ode-2ZMZWCQL.js",
+      "module": "/build/routes/pacific/fragments/poem-ode-QNKNZWZD.js",
+      "imports": [
+        "/build/_shared/chunk-KGKFDRMC.js"
+      ],
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -159,9 +159,9 @@
       "id": "routes/pacific/fragments/quote-clime",
       "parentId": "routes/pacific/fragments",
       "path": "quote-clime",
-      "module": "/build/routes/pacific/fragments/quote-clime-3Q2KYFDJ.js",
+      "module": "/build/routes/pacific/fragments/quote-clime-SIS3XEZZ.js",
       "imports": [
-        "/build/_shared/chunk-JCLZ6U65.js"
+        "/build/_shared/chunk-DP77HPKT.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -212,5 +212,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-15710CB9.js"
+  "url": "/build/manifest-0351A205.js"
 }
