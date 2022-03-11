@@ -1,4 +1,6 @@
 import styles from '~/styles/airspace.css'
+import LetSay from '../pacific/fragments/poem-letsay'
+//May add poem for punch, later.
 
 export function links() {
  return [{ rel: 'stylesheet', href: styles }]
