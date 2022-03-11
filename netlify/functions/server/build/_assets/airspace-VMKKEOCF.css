@@ -1,0 +1,15 @@
+* {
+ color: black;
+ background-color: white;
+ font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+}
+
+body {
+ margin: 0 auto;
+ padding: 1rem;
+ font-size: 1.5rem;
+}
+
+h3, h5 {
+ font-family:Verdana, Geneva, Tahoma, sans-serif
+}

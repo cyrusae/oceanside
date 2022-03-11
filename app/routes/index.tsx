@@ -6,6 +6,10 @@ import { GlacierA, GlacierB, GlacierC } from "./pacific/fragments/poem-glacier";
 import WAVE from "./pacific/fragments/poem-wave";
 import Wham from "./pacific/fragments/stripe-whamline";
 import Footer from "./footer";
+import Define from "./pacific/fragments/quote-clime";
+import LetSay from "./pacific/fragments/poem-letsay";
+import Ode from "./pacific/fragments/poem-ode";
+import { ChiGar } from "./pacific/fragments/photos_chi";
 
 export function links() {
  return [{ rel: 'stylesheet', href: styles }]
@@ -13,15 +17,18 @@ export function links() {
 
 export default function Index() {
  return (
-    <div>
-     <div id='beach'>     <Fragments />
+    <div id='water'>
+     <div id='beach'>
+     <Fragments />
+     <Ode />
      <GlacierA />
+     <Define />
      <GlacierB />
      <WAVE />
      <GlacierC />
-     </div>
      <Wham />
-     <Footer />
     </div>
+         <Footer />
+</div>
   );
 }

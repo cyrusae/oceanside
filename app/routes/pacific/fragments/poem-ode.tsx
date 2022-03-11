@@ -1,13 +1,14 @@
 export default function Ode() {
  return (
   <div id='Ode' className='poem'>
-   <img src='' />
-   <div className='quote'>
-    forgetting the nation is a syndrome.<br/>
-    All that’s left of the sea in you is foam,<br/>
-    the coastline's broken voice and all its crags.
+   <img src='/indigo_paint_bg_ph.png' className='fade-in PLACEHOLDER'/>
+   <div className='quote text-focus-in'>
+    <p>forgetting the nation is a syndrome.</p>
+    <p>All that’s left of the sea in you is foam,</p>
+    <p>the coastline's broken voice and all its crags.</p>
+    
    </div>
-   <div className='credit'>
+   <div className='credit text-focus-in'>
     Urayoán Noel,<br/>"No Longer Ode"
    </div>
   </div>
