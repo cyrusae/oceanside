@@ -799,7 +799,7 @@ function Fragments2() {
 var fragments_default2 = Fragments2;
 
 // app/styles/coastline.css
-var coastline_default = "/build/_assets/coastline-ADP2EZY3.css";
+var coastline_default = "/build/_assets/coastline-L4VKICPF.css";
 
 // app/routes/pacific/fragments/poem-glacier.tsx
 init_react();
