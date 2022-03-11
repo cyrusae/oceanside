@@ -1,7 +1,7 @@
 export default function Define() {
  return (
   <div id='define' className='cite'>
-   <img src='/purple_rhombus_quote_bg_ph.png' className='fade-in PLACEHOLDER'/>
+   <img src='/polaroid_quote_bg_ph.png' className='fade-in PLACEHOLDER'/>
    <div className='quote text-focus-in'>
     <p>Consider climate change as about <b>the timing of relationships</b> we have with all that's around us.</p>
    </div>
