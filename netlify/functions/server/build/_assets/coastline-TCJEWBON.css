@@ -125,12 +125,13 @@ h5 {
 }
 
 #define .quote {
+ color: black;
+ text-shadow: 1px 1px lightgrey;
  padding: 3.5rem;
  top: 48%;
  font-size: 2rem;
  font-style: oblique;
  text-align: center;
- font-weight: lighter;
 }
 
 #define .credit {

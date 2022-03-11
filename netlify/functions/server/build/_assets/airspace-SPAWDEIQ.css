@@ -1,0 +1,11 @@
+* {
+ color: black;
+ background-color: white;
+ font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+}
+
+body {
+ margin: 0 auto;
+ padding: 1rem;
+ font-size: 1.2rem;
+}

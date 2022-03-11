@@ -1,5 +1,5 @@
 {
-  "version": "c2e3c6e4",
+  "version": "15710cb9",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,15 +34,17 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-L2NEEZ6D.js",
+      "module": "/build/routes/index-XYTOQFZS.js",
       "imports": [
-        "/build/_shared/chunk-LLFOKI7H.js",
         "/build/_shared/chunk-O6MNJ7SS.js",
+        "/build/_shared/chunk-JCLZ6U65.js",
+        "/build/_shared/chunk-GY7KZU4J.js",
         "/build/_shared/chunk-222H22BJ.js",
         "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-6UH2377Q.js",
         "/build/_shared/chunk-MMJH7CGR.js",
-        "/build/_shared/chunk-7XAFGAOM.js"
+        "/build/_shared/chunk-ITP3FRAA.js",
+        "/build/_shared/chunk-YTNKB5DV.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -53,7 +55,7 @@
       "id": "routes/metadata/credit",
       "parentId": "root",
       "path": "metadata/credit",
-      "module": "/build/routes/metadata/credit-UKAULCEO.js",
+      "module": "/build/routes/metadata/credit-HU4T3LBE.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -84,13 +86,23 @@
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     },
+    "routes/pacific/fragments/photos_chi": {
+      "id": "routes/pacific/fragments/photos_chi",
+      "parentId": "routes/pacific/fragments",
+      "path": "photos_chi",
+      "module": "/build/routes/pacific/fragments/photos_chi-DXMJEWQP.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
     "routes/pacific/fragments/poem-glacier": {
       "id": "routes/pacific/fragments/poem-glacier",
       "parentId": "routes/pacific/fragments",
       "path": "poem-glacier",
-      "module": "/build/routes/pacific/fragments/poem-glacier-JAKSNFII.js",
+      "module": "/build/routes/pacific/fragments/poem-glacier-JAVCY4OL.js",
       "imports": [
-        "/build/_shared/chunk-7XAFGAOM.js"
+        "/build/_shared/chunk-ITP3FRAA.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -101,7 +113,10 @@
       "id": "routes/pacific/fragments/poem-letsay",
       "parentId": "routes/pacific/fragments",
       "path": "poem-letsay",
-      "module": "/build/routes/pacific/fragments/poem-letsay-3HBBVSA4.js",
+      "module": "/build/routes/pacific/fragments/poem-letsay-4MKAXTLD.js",
+      "imports": [
+        "/build/_shared/chunk-YTNKB5DV.js"
+      ],
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -121,9 +136,9 @@
       "id": "routes/pacific/fragments/poem-wave",
       "parentId": "routes/pacific/fragments",
       "path": "poem-wave",
-      "module": "/build/routes/pacific/fragments/poem-wave-BR2GEDVF.js",
+      "module": "/build/routes/pacific/fragments/poem-wave-H6H5CHGM.js",
       "imports": [
-        "/build/_shared/chunk-LLFOKI7H.js"
+        "/build/_shared/chunk-GY7KZU4J.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -135,6 +150,19 @@
       "parentId": "routes/pacific/fragments",
       "path": "poem-winsum",
       "module": "/build/routes/pacific/fragments/poem-winsum-INB6VK7S.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/quote-clime": {
+      "id": "routes/pacific/fragments/quote-clime",
+      "parentId": "routes/pacific/fragments",
+      "path": "quote-clime",
+      "module": "/build/routes/pacific/fragments/quote-clime-3Q2KYFDJ.js",
+      "imports": [
+        "/build/_shared/chunk-JCLZ6U65.js"
+      ],
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -184,5 +212,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-C2E3C6E4.js"
+  "url": "/build/manifest-15710CB9.js"
 }

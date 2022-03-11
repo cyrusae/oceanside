@@ -110,12 +110,12 @@ h5 {
 }
 
 .PLACEHOLDER {
- mix-blend-mode: multiply;
+ mix-blend-mode: lighten;
 }
 
 .quote {
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- font-size: 1.5rem;
+ font-size: 1.2rem;
  margin: 0 auto;
  position: absolute;
  top: 50%;
@@ -125,30 +125,21 @@ h5 {
 }
 
 #define .quote {
+ color: black;
+ text-shadow: 1px 1px lightgrey;
  padding: 3.5rem;
- top: 48%;
  font-size: 2rem;
  font-style: oblique;
  text-align: center;
- font-weight: lighter;
 }
 
 #define .credit {
  bottom: 23vw;
- font-style: normal;
 }
 
 #III .quote {
  padding: 2rem;
  top: 48%;
-}
-
-#III .credit {
- bottom: 30vw;
-}
-
-#V .quote {
- padding: 2.5rem;
 }
 
 #V .credit {
@@ -164,10 +155,6 @@ h5 {
 
 #III .credit {
  bottom: 20vw;
-}
-
-#WAW .quote {
- padding: 2rem;
 }
 
 #WAW .credit {
