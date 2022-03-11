@@ -135,7 +135,7 @@ h5 {
 }
 
 #define .credit {
- bottom: 23%;
+ bottom: 23vw;
  font-style: normal;
  background: none;
 }
@@ -154,7 +154,7 @@ h5 {
 }
 
 #V .credit {
- bottom: 25%;
+ bottom: 20%;
 }
 
 #VIII .quote {
@@ -162,18 +162,18 @@ h5 {
 }
 
 #VIII .credit {
- bottom: 22%;
+ bottom: 22vw;
 }
 
 .credit {
  position: absolute;
- bottom: 15%;
+ bottom: 15vw;
  left: 50%;
  transform: translate(-50%, -50%);
 }
 
 #III .credit {
- bottom: 20%;
+ bottom: 20vw;
 }
 
 #WAW .quote {
@@ -182,7 +182,7 @@ h5 {
 
 #WAW .credit {
  position: absolute;
- bottom: 20%;
+ bottom: 20vw;
  left: 50%;
  transform: translate(-50%, -50%);
 }
@@ -209,7 +209,7 @@ div.credit {
 }
 
 #Ode .credit {
- bottom: 10%;
+ bottom: 10vw;
 }
 
 /* Attempted homebrew parallax */
