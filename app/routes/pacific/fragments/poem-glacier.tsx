@@ -1,7 +1,7 @@
 export function GlacierA() {
  return (
   <div className='glacier poem' id='III'>
-   <img src='/blue_quote_bg_va_ph.png' className='fade-in PLACEHOLDER'/>
+   <img src='/blue_quote_bg_va.png' className='fade-in'/>
    <div className='quote text-focus-in'><p><h5>III</h5>
    The glacier absorbed greenhouse gases. <br/>
    We are a large part of the biosphere.</p>
