@@ -9,7 +9,7 @@ import Footer from "./footer";
 import Define from "./pacific/fragments/quote-clime";
 import LetSay from "./pacific/fragments/poem-letsay";
 import Ode from "./pacific/fragments/poem-ode";
-import { ChiGar } from "./pacific/fragments/photos_chi";
+import { ChiGar1, ChiGar2 } from "./pacific/fragments/photos_chi";
 
 export function links() {
  return [{ rel: 'stylesheet', href: styles }]
@@ -23,8 +23,10 @@ export default function Index() {
      <Fragments />
      <Ode />
      <GlacierA />
+     <ChiGar1 />
      <Define />
      <GlacierB />
+     <ChiGar2 />
      <WAVE />
      <GlacierC />
     </div>

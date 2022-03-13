@@ -1,5 +1,5 @@
 {
-  "version": "7bb16574",
+  "version": "f4290d13",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,16 +34,17 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-UUPPTPCV.js",
+      "module": "/build/routes/index-2OWTNZZ7.js",
       "imports": [
         "/build/_shared/chunk-O6MNJ7SS.js",
         "/build/_shared/chunk-N3PRCEVB.js",
-        "/build/_shared/chunk-GY7KZU4J.js",
-        "/build/_shared/chunk-KGKFDRMC.js",
+        "/build/_shared/chunk-AJQLMVWI.js",
+        "/build/_shared/chunk-B5JRLLQA.js",
+        "/build/_shared/chunk-ONZC6UHJ.js",
         "/build/_shared/chunk-222H22BJ.js",
         "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-6UH2377Q.js",
-        "/build/_shared/chunk-ZYHBAAHR.js",
+        "/build/_shared/chunk-H3FAKBI7.js",
         "/build/_shared/chunk-ETSZAPWT.js"
       ],
       "hasAction": false,
@@ -90,7 +91,10 @@
       "id": "routes/pacific/fragments/photos_chi",
       "parentId": "routes/pacific/fragments",
       "path": "photos_chi",
-      "module": "/build/routes/pacific/fragments/photos_chi-DXMJEWQP.js",
+      "module": "/build/routes/pacific/fragments/photos_chi-ZHWZ3KIW.js",
+      "imports": [
+        "/build/_shared/chunk-AJQLMVWI.js"
+      ],
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -123,9 +127,9 @@
       "id": "routes/pacific/fragments/poem-ode",
       "parentId": "routes/pacific/fragments",
       "path": "poem-ode",
-      "module": "/build/routes/pacific/fragments/poem-ode-QNKNZWZD.js",
+      "module": "/build/routes/pacific/fragments/poem-ode-2225YZAS.js",
       "imports": [
-        "/build/_shared/chunk-KGKFDRMC.js"
+        "/build/_shared/chunk-ONZC6UHJ.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -136,9 +140,9 @@
       "id": "routes/pacific/fragments/poem-wave",
       "parentId": "routes/pacific/fragments",
       "path": "poem-wave",
-      "module": "/build/routes/pacific/fragments/poem-wave-H6H5CHGM.js",
+      "module": "/build/routes/pacific/fragments/poem-wave-27MI76AO.js",
       "imports": [
-        "/build/_shared/chunk-GY7KZU4J.js"
+        "/build/_shared/chunk-B5JRLLQA.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -192,9 +196,9 @@
       "id": "routes/pacific/fragments/stripe-whamline",
       "parentId": "routes/pacific/fragments",
       "path": "stripe-whamline",
-      "module": "/build/routes/pacific/fragments/stripe-whamline-YOZ773WT.js",
+      "module": "/build/routes/pacific/fragments/stripe-whamline-H4PMI3SP.js",
       "imports": [
-        "/build/_shared/chunk-ZYHBAAHR.js"
+        "/build/_shared/chunk-H3FAKBI7.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -212,5 +216,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-7BB16574.js"
+  "url": "/build/manifest-F4290D13.js"
 }
