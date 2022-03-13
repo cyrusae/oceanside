@@ -17,8 +17,9 @@ export function links() {
 
 export default function Index() {
  return (
-    <div id='water'>
-     <div id='beach'>
+  <div id='oceanside'>
+   <div id='water'>
+    <div id='beach'>
      <Fragments />
      <Ode />
      <GlacierA />
@@ -26,9 +27,10 @@ export default function Index() {
      <GlacierB />
      <WAVE />
      <GlacierC />
-     <Wham />
     </div>
-         <Footer />
-</div>
-  );
+   </div>
+   <Wham />
+   <Footer />
+  </div>
+ );
 }

@@ -131,7 +131,7 @@ h5 {
 
 .quote {
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- font-size: 1.2rem;
+ font-size: 1.5rem;
  margin: 0 auto;
  line-height: 120%;
  position: absolute;
@@ -144,7 +144,7 @@ h5 {
 #define .quote {
  padding: 4.5rem;
  top: 45%;
- font-size: 1rem;
+ font-size: 2rem;
  font-style: oblique;
  text-align: center;
  font-weight: lighter;
