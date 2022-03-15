@@ -10,6 +10,7 @@ import Define from "./pacific/fragments/quote-clime";
 import LetSay from "./pacific/fragments/poem-letsay";
 import Ode from "./pacific/fragments/poem-ode";
 import { ChiGar1, ChiGar2 } from "./pacific/fragments/photos_chi";
+import Garden from "./pacific/fragments/photos_chi";
 
 export function links() {
  return [{ rel: 'stylesheet', href: styles }]
@@ -20,6 +21,7 @@ export default function Index() {
   <div id='oceanside'>
    <div id='water'>
     <div id='beach'>
+     <Garden />
      <Fragments />
      <Ode />
      <GlacierA />
