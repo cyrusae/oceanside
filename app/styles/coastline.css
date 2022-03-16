@@ -189,6 +189,7 @@ h5 {
  left: 50%;
  transform: translate(-50%, -50%);
  text-shadow: 1px 1px black;
+ color: white;
 }
 
 #define .quote {
@@ -252,7 +253,7 @@ h5 {
  transform: translate(-50%, -50%);
 }
 
-div.credit {
+.credit {
  background-color: rgba(360, 360, 360, 0.8);
  color: black;
  text-align: center;
@@ -262,19 +263,26 @@ div.credit {
  font-size: 0.5em;
 }
 
-#Ode .quote {
+#Ode .quote, #WinSum .quote {
  margin: 0 auto;
- width: 25%;
  line-height: 125%;
 }
 
-#Ode p {
+#Ode .quote {
+ width: 25%; 
+}
+
+#Ode p, #WinSum p {
  padding: 0;
  margin: 0.3rem;
 }
 
 #Ode .credit {
  bottom: 10%;
+}
+
+#WinSum .quote {
+ width: 30%;
 }
 
 /* Attempted homebrew parallax */

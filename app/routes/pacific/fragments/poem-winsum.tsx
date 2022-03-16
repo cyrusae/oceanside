@@ -1,14 +1,14 @@
 export default function WinSum() {
  return (
-  <div id='WinSum' className='poem'>
-   <img src='' />
+  <aside id='WinSum' aria-labelledby='cred_season' className='poem'>
+   <img src='/blueblack_quote_bg.png' className='fade-in' alt=''/>
    <div className='quote'>
-    &nbsp;&nbsp;sit in the center of the poem, invigorated<br/>
-    with inky awkward blankness.<br/>
-    The bottom teeth of summer<br/>
-    in winter chattering: here’s the moon. 
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;sit in the center of the poem, invigorated</p>
+    <p>with inky awkward blankness.</p>
+    <p>The bottom teeth of summer</p>
+    <p>in winter chattering: here’s the moon.</p>
    </div>
-   <div className='credit'>Noah Eli Gordon,<br/>"Summer in Winter in Summer"</div>
-  </div>
+   <div className='credit' id='cred_season'>Noah Eli Gordon,<br/><cite>"Summer in Winter in Summer"</cite></div>
+  </aside>
  )
 }
