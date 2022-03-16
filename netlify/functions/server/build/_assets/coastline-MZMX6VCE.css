@@ -25,7 +25,7 @@ html, body {
 
 }
 
-.scene, .poem, .cite, article {
+#beach > * {
  background: rgba(10, 10, 10, 0.85);
 }
 

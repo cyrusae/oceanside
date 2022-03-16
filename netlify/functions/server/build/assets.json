@@ -1,5 +1,5 @@
 {
-  "version": "e46c73f7",
+  "version": "8d822bb8",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,11 +34,11 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-VV7UVBFK.js",
+      "module": "/build/routes/index-W5QZHBBA.js",
       "imports": [
         "/build/_shared/chunk-O6MNJ7SS.js",
         "/build/_shared/chunk-N3PRCEVB.js",
-        "/build/_shared/chunk-KO4QHET6.js",
+        "/build/_shared/chunk-MUBTCW7L.js",
         "/build/_shared/chunk-B5JRLLQA.js",
         "/build/_shared/chunk-ONZC6UHJ.js",
         "/build/_shared/chunk-222H22BJ.js",
@@ -91,9 +91,9 @@
       "id": "routes/pacific/fragments/photos_chi",
       "parentId": "routes/pacific/fragments",
       "path": "photos_chi",
-      "module": "/build/routes/pacific/fragments/photos_chi-VZ6HDWM4.js",
+      "module": "/build/routes/pacific/fragments/photos_chi-6DR3LJGF.js",
       "imports": [
-        "/build/_shared/chunk-KO4QHET6.js"
+        "/build/_shared/chunk-MUBTCW7L.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -214,17 +214,7 @@
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
-    },
-    "routes/pacific/herotest": {
-      "id": "routes/pacific/herotest",
-      "parentId": "root",
-      "path": "pacific/herotest",
-      "module": "/build/routes/pacific/herotest-5DSV6Y7N.js",
-      "hasAction": false,
-      "hasLoader": false,
-      "hasCatchBoundary": false,
-      "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-E46C73F7.js"
+  "url": "/build/manifest-8D822BB8.js"
 }
