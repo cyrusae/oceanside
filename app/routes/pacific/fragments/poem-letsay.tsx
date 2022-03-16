@@ -1,6 +1,6 @@
 export default function LetSay() {
  return (
-  <div id='LetSay' className='poem'>
+  <aside id='LetSay' className='poem' aria-labelledby='cred_letsay'>
    <img src='/red_quote_bg.png' />
    <div className='quote'>
     <p>Let them say, as they must say something:</p>
@@ -10,9 +10,9 @@ export default function LetSay() {
     read by its light, praised,<br/>
     and it burned.</p>
    </div>
-   <div className='credit'>
-    Jane Hirshfield,<br/>"Let Them Not Say"
+   <div className='credit' id='cred_letsay'>
+    Jane Hirshfield,<br/><cite>"Let Them Not Say"</cite>
    </div>
-  </div>
+  </aside>
  )
 }
