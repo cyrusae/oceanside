@@ -1,36 +1,21 @@
-//Would like to randomize between 1 and 2 sometime 
-import React, {useMemo, useState} from 'react';
+import { useState } from 'react';
 const faces = ['aguila', 'sol']
 
-export default function Garden() {
- const [selectedFace, setSelectedFace] = useState('');
- const [flipResult, setFlipResult] = useState('');
-
- const flip = () => {
+const flip = (() => {
   let pick;
   if (Math.random() < 0.5) {
    pick = 0;
   } else {
    pick = 1;
   }
-  setFlipResult(faces[pick]);
- }
+  return faces[pick];
+ })
 
- const whichSelectedFace = useMemo(() => {
-  const face = faces.find((f) => f !== selectedFace);
-  return face;
- }, [selectedFace]);
-
- const eagle = useMemo( () => {
-  return flipResult === selectedFace;
- }, [flipResult, selectedFace]);
-
- console.log(flipResult);
-
+export default function Garden() {
  const gardenMe = () => {
-   if (eagle === true) {
+   if (flip() === 'aguila') {
    return <ChiGar1 />;
-  } else if (eagle === false) {
+  } else {
    return <ChiGar2 />;
   }
  }
@@ -44,9 +29,9 @@ export default function Garden() {
 
 export function ChiGar1() {
  return (
-   <div id='Charden1' className='hero flip-in-hor-top'>
+   <div id='Charden1' className='hero flip-in-hor-top' role='img'>
     <div className='img'>
-     <img src='/photos/chi_ver_gard1.jpeg' />
+     <img src='/photos/chi_ver_gard1.jpeg' alt='' />
     </div>
    </div>
   )
@@ -54,9 +39,9 @@ export function ChiGar1() {
  
  export function ChiGar2() {
   return (
-   <div id='Charden2' className='hero flip-in-hor-top'>
+   <div id='Charden2' className='hero flip-in-hor-top' role='img'>
     <div className='img'>
-     <img src='/photos/chi_ver_gard2.jpeg' />
+     <img src='/photos/chi_ver_gard2.jpeg' alt=''/>
     </div>
    </div>
   )
