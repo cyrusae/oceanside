@@ -115,7 +115,7 @@ img {
 }
 
 .captimg {
- visibility: hidden; 
+/* visibility: hidden; */
  position: absolute;
  box-sizing: content-box;
  top: 50%;
@@ -128,19 +128,11 @@ img {
 }
 
 .captimg > div {
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
  position: absolute;
- padding: 3rem;
- margin: 0 auto;
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-style: oblique;
- line-height: 120%;
- color:rgba(10, 10, 10, 0.85);
+ padding: 6rem;
 }
 
-.captimg:hover, .captimg>div:hover {
+.captimg:hover {
  visibility: visible;
 }
 
@@ -194,6 +186,7 @@ h5 {
 #define .quote {
  padding: 4.5rem;
  top: 45%;
+ font-size: 1rem;
  font-style: oblique;
  text-align: center;
  font-weight: lighter;
