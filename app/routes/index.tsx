@@ -19,20 +19,18 @@ export function links() {
 export default function Index() {
  return (
   <div id='oceanside'>
-   <div id='water'>
+   <main id='water'>
     <div id='beach'>
-     <Garden />
      <Fragments />
      <Ode />
      <GlacierA />
-     <ChiGar1 />
+     <Garden />
      <Define />
      <GlacierB />
-     <ChiGar2 />
      <WAVE />
      <GlacierC />
     </div>
-   </div>
+   </main>
    <Wham />
    <Footer />
   </div>
