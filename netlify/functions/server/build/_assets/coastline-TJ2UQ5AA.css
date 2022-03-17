@@ -133,11 +133,8 @@ button, button:hover, button:active {
  font-style: oblique;
  line-height: 120%;
  font-size: 1.3rem;
- width: 50%;
- top: 50%;
- left: 50%;
- transform: translate(50%);
- color:rgba(10, 10, 10, 1);
+ padding: 5rem;
+ color:rgba(10, 10, 10, 0.85);
 }
 
 /* Footer */
@@ -279,8 +276,6 @@ h5 {
 
 #WinSum .quote {
  width: 30%;
- padding-left: 5%;
- top: 48%;
 }
 
 /* Attempted homebrew parallax */
