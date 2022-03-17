@@ -12,6 +12,7 @@ body {
  max-width: 800px;
  bottom: 50%;
  right: 50%;
+ transform: translate(-50%, -50%);
 }
 
 .credits {
@@ -22,14 +23,9 @@ h3, h5 {
  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a, a:visited {
+a {
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  font-style: oblique; 
- color: seagreen;
-}
-
-a:hover {
- background: gainsboro;
 }
 
 /* Bonus poem */ 
@@ -41,6 +37,8 @@ h5 {
  position: relative;
  padding-top: 10rem;
  padding-bottom: 10rem;
+ margin-top: 3rem;
+ margin-bottom: 3rem;
 }
 
 img {
@@ -63,7 +61,7 @@ img {
 
 .credit {
  position: absolute;
- bottom: 20%;
+ bottom: 30%;
  left: 50%;
  transform: translate(-50%, -50%);
  background-color: rgba(360, 360, 360, 0.8);
@@ -73,27 +71,6 @@ img {
  text-shadow: none;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  font-size: 0.5em;
-}
-
-#goback {
- background-color: seagreen;
- color: seashell;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-variant: small-caps;
- width: fit-content;
-}
-
-#goback:hover {
- background-color: slateblue;
-}
-
-#goback a, #goback a:hover, #goback a:visited {
- text-decoration: none;
- background: transparent;
- color: inherit;
- padding: 2rem;
- font-style: normal;
- line-height: 300%;
 }
 
 /**

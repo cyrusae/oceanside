@@ -1,8 +1,8 @@
 export default function LetSay() {
  return (
   <aside id='LetSay' className='poem' aria-labelledby='cred_letsay'>
-   <img src='/red_quote_bg.png' />
-   <div className='quote'>
+   <img src='/red_quote_bg.png' className='fade-in' />
+   <div className='quote text-focus-in'>
     <p>Let them say, as they must say something:</p>
     <p>A kerosene beauty.<br/>
     It burned.</p>

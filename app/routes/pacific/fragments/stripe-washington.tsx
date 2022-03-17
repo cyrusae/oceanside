@@ -9,8 +9,6 @@ const cap_wa = '"Warming stripes" visualization for the state of Washington, sho
 
 
 export default function Washington() {
-
-
  return (
   <div id='Washington' className='flip-in-hor-top hero' role='img' aria-describedby='cap_wa'><img src='/stripes_wa.png' alt='' />
    <button type='button' className='secret' aria-hidden='true'>  

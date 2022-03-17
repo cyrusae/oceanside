@@ -5,7 +5,6 @@ import WAVE from "./pacific/fragments/poem-wave";
 import Wham from "./pacific/fragments/stripe-whamline";
 import Footer from "./footer";
 import Define from "./pacific/fragments/quote-clime";
-import LetSay from "./pacific/fragments/poem-letsay";
 import Ode from "./pacific/fragments/poem-ode";
 import Garden from "./pacific/fragments/photos_chi";
 import WinSum from "./pacific/fragments/poem-winsum";
@@ -24,7 +23,6 @@ export default function Index() {
      <GlacierA />
      <Garden />
      <Define />
-     <LetSay />
      <WinSum />
      <GlacierB />
      <WAVE />

@@ -80,7 +80,6 @@ img {
  color: seashell;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-variant: small-caps;
- width: fit-content;
 }
 
 #goback:hover {
@@ -91,9 +90,6 @@ img {
  text-decoration: none;
  background: transparent;
  color: inherit;
- padding: 2rem;
- font-style: normal;
- line-height: 300%;
 }
 
 /**
