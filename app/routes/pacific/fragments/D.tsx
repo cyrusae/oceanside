@@ -1,4 +1,5 @@
 import Garden from "./photos_chi"
+import Odile from "./photos_odile"
 import { GlacierB, GlacierC } from "./poem-glacier"
 import Ode from "./poem-ode"
 import WinSum from "./poem-winsum"
@@ -21,6 +22,7 @@ export default function D() {
    <Define />
    <Scene22 />
    <Scene21 />
+   <Odile />
    <Scene23 />
    <Scene24 />
    <Washington />

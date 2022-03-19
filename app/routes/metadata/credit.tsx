@@ -26,6 +26,7 @@ export default function Metadata() {
    <ul>Kyle Whyte, "Braiding Kinship and Time" (lecture on Indigenous climate justice)</ul>
    <h5>Images</h5>
    <p>Climate stripes generated via <a href='https://showyourstripes.info'>Show Your Stripes</a>.</p>
+   <p>Todos Santos photographs copyright Howard Ekman, used with permission.</p>
    <p>Seattle smoke summer photographs depict the Chihuly Sculpture Garden at Seattle Center and are by the author.</p>
    <p>Map via Google Maps. Imagery copyright Data SIO, NOAA, U.S. Navy, NGBA, GEBCO, Landsat/Copernicus, IBCAO. Map data copyright INEGI and Google.</p>
    Image assets from PNGtree:
@@ -59,7 +60,7 @@ export default function Metadata() {
   ) }
 
 /* Later:
-   <p>Todos Santos photographs copyright Howard Ekman, used with permission.</p>
+   
    <p>Aerial climate photographs by NASA.</p>
 
        <li>Black clouds background</li>
