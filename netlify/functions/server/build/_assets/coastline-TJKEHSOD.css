@@ -70,7 +70,7 @@ html, body {
  background-attachment: fixed;
 }
 
-#fourteen, #twenty3, #forty {
+#fourteen, #forty {
  background-image: url('/snow_bg.png');
  background-size: auto;
  background-position: center;
@@ -85,7 +85,7 @@ html, body {
  background-attachment: fixed;
 }
 
-#twenty5, #twenty6, #twenty7, #thirty8, #thirty9 {
+#twenty5, #twenty6, #twenty7 {
  background-image: url('/smoke_bg.png');
  background-position: center;
  background-attachment: fixed;
@@ -142,8 +142,6 @@ img {
  background-color: rgba(360, 360, 360, 0.7);
  padding: 1rem;
  position: relative;
- margin-top: 20px;
- margin-bottom: 20px;
 }
 
 #Washington .img {

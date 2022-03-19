@@ -370,7 +370,7 @@ export function Scene38() {
 
 export function Scene39() {
  return (
-  <div className='scene' id='thirty1'>
+  <div className='scene' id='thirty9'>
    <div className='content'>
     <p>I know these temperatures the way my loved ones do not, but I didn't like them any better when I was younger. I wear more layers now, by medical necessity, and am less acclimated, trading the placid resignation to summer commutes at 120F (the car had broken, my first summer in perhaps-high school, in such a way as meant one had to run the heater in order to idle it, which didn't help) for tolerating snow. The upshot is that I am more functional but poorly functioning; I don't realize until later why I'm not eating or sleeping, and then I remember.</p>
     <p>I add air conditioning to the list of requirements for our next apartment, long shot that it is. </p>

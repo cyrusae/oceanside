@@ -62,7 +62,7 @@ html, body {
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#one {
+#one, #forty {
  margin-bottom: 3px;
  background-image: url('/snow_bg.png');
  background-size: auto;
@@ -70,14 +70,7 @@ html, body {
  background-attachment: fixed;
 }
 
-#fourteen, #twenty3, #forty {
- background-image: url('/snow_bg.png');
- background-size: auto;
- background-position: center;
- background-attachment: fixed;
-}
-
-#two, #three, #six {
+#two, #three {
  background-image: url('/rain_bg.png');
  background-position: cover;
  background-blend-mode: multiply;
@@ -85,7 +78,7 @@ html, body {
  background-attachment: fixed;
 }
 
-#twenty5, #twenty6, #twenty7, #thirty8, #thirty9 {
+#twenty5, #twenty6, #twenty7 {
  background-image: url('/smoke_bg.png');
  background-position: center;
  background-attachment: fixed;
@@ -142,8 +135,6 @@ img {
  background-color: rgba(360, 360, 360, 0.7);
  padding: 1rem;
  position: relative;
- margin-top: 20px;
- margin-bottom: 20px;
 }
 
 #Washington .img {

@@ -1,5 +1,5 @@
 {
-  "version": "2c9cc377",
+  "version": "cd6d45c4",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,14 +34,13 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-GKIWMWNY.js",
+      "module": "/build/routes/index-DOIEBKFC.js",
       "imports": [
         "/build/_shared/chunk-55STOGKM.js",
-        "/build/_shared/chunk-YQ2P4DHL.js",
-        "/build/_shared/chunk-RRUZDOV3.js",
+        "/build/_shared/chunk-YMKZXUA2.js",
         "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-EYJFBN3I.js",
+        "/build/_shared/chunk-HJZ4MLEG.js",
         "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
@@ -49,6 +48,7 @@
         "/build/_shared/chunk-B5JRLLQA.js",
         "/build/_shared/chunk-U72DLZZI.js",
         "/build/_shared/chunk-C4VSDSD2.js",
+        "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-W77S3IQN.js",
         "/build/_shared/chunk-C5ADPB5Y.js",
         "/build/_shared/chunk-QYEI6GMA.js",
@@ -76,13 +76,12 @@
       "id": "routes/pacific/fragments",
       "parentId": "root",
       "path": "pacific/fragments",
-      "module": "/build/routes/pacific/fragments-KJCBCZOV.js",
+      "module": "/build/routes/pacific/fragments-VJ6SNDJN.js",
       "imports": [
-        "/build/_shared/chunk-YQ2P4DHL.js",
-        "/build/_shared/chunk-RRUZDOV3.js",
+        "/build/_shared/chunk-YMKZXUA2.js",
         "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-EYJFBN3I.js",
+        "/build/_shared/chunk-HJZ4MLEG.js",
         "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
@@ -90,6 +89,7 @@
         "/build/_shared/chunk-B5JRLLQA.js",
         "/build/_shared/chunk-U72DLZZI.js",
         "/build/_shared/chunk-C4VSDSD2.js",
+        "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-W77S3IQN.js",
         "/build/_shared/chunk-QYEI6GMA.js",
         "/build/_shared/chunk-FYHROETE.js"
@@ -133,7 +133,7 @@
       "id": "routes/pacific/fragments/D",
       "parentId": "routes/pacific/fragments",
       "path": "D",
-      "module": "/build/routes/pacific/fragments/D-RTZPHS77.js",
+      "module": "/build/routes/pacific/fragments/D-WJJ2ZDAS.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -264,17 +264,7 @@
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
-    },
-    "routes/pacific/fragments/test1": {
-      "id": "routes/pacific/fragments/test1",
-      "parentId": "routes/pacific/fragments",
-      "path": "test1",
-      "module": "/build/routes/pacific/fragments/test1-SXWKJUA4.js",
-      "hasAction": false,
-      "hasLoader": false,
-      "hasCatchBoundary": false,
-      "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-2C9CC377.js"
+  "url": "/build/manifest-CD6D45C4.js"
 }
