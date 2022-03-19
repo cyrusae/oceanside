@@ -13,7 +13,6 @@ function Fragments() {
    <B />
    <C />
    <D />
-   <Washington />
   </div>
  )
 }

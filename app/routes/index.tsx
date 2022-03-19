@@ -18,10 +18,6 @@ export default function Index() {
    <main id='water'>
     <div id='beach'>
      <Fragments />
-     <Ode />
-     <Garden />
-     <WinSum />
-     <GlacierB />
     </div>
    </main>
    <Wham />
