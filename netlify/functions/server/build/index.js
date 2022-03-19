@@ -2093,7 +2093,7 @@ function Fragments2() {
 var fragments_default2 = Fragments2;
 
 // app/styles/coastline.css
-var coastline_default = "/build/_assets/coastline-LPBUYLAN.css";
+var coastline_default = "/build/_assets/coastline-QR25RUTE.css";
 
 // app/routes/pacific/fragments/stripe-whamline.tsx
 init_react();
