@@ -1,5 +1,5 @@
 {
-  "version": "e564a1fa",
+  "version": "e6679d22",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,14 +34,14 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-BA6HY4KH.js",
+      "module": "/build/routes/index-FRDPZJ46.js",
       "imports": [
         "/build/_shared/chunk-55STOGKM.js",
-        "/build/_shared/chunk-6INMIAXT.js",
+        "/build/_shared/chunk-3F47G7XT.js",
         "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-7732PQY6.js",
+        "/build/_shared/chunk-YZLK232H.js",
         "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
@@ -76,13 +76,13 @@
       "id": "routes/pacific/fragments",
       "parentId": "root",
       "path": "pacific/fragments",
-      "module": "/build/routes/pacific/fragments-FYJQXT6O.js",
+      "module": "/build/routes/pacific/fragments-XXFQTDGP.js",
       "imports": [
-        "/build/_shared/chunk-6INMIAXT.js",
+        "/build/_shared/chunk-3F47G7XT.js",
         "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-7732PQY6.js",
+        "/build/_shared/chunk-YZLK232H.js",
         "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
@@ -133,7 +133,7 @@
       "id": "routes/pacific/fragments/D",
       "parentId": "routes/pacific/fragments",
       "path": "D",
-      "module": "/build/routes/pacific/fragments/D-VLKXDVWJ.js",
+      "module": "/build/routes/pacific/fragments/D-MERLOMAL.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -276,5 +276,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-E564A1FA.js"
+  "url": "/build/manifest-E6679D22.js"
 }
