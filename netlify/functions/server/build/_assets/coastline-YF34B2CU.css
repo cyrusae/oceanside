@@ -64,16 +64,14 @@ html, body {
 
 #one {
  margin-bottom: 3px;
+
 } 
 
 #one, #forty2 {
  background-image: url('/snow_bg.png');
  background-size: auto auto;
+ padding-top: 5vh;
  background-position: center;
-}
-
-#forty2 {
-  padding-top: 5vh;
 }
 
 #preprekick {
@@ -200,7 +198,7 @@ h5 {
  position: relative;
 }
 
-.scene:not(.hero):not(aside):not(#forty2):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) + :not(.scene):not(.hero):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]):not(aside) {
+.scene:not(.hero):not(#forty2):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one) + :not(.scene):not(.hero):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one) {
  padding-top: 5rem;
  padding-bottom: 5rem;
 }

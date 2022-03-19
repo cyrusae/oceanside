@@ -412,7 +412,7 @@ export function Scene42() {
  return (
   <div className='scene' id='forty2'>
    <div className='content'>
-    <p>I've lived longer in Seattle than anywhere else in the United States, but not long enough to lose things to the present. I don't have a sense of patterns about it save in the broadest of senses; this is what I know. </p>
+    <p>I've lived longer in Seattle than anywhere else in the United States, but not long enough to lose things to the present. I don't have an idea of patterns about it, save in the broadest of senses; this is what I know. </p>
     <p>I check the weather. People ask if it torments me, as the Pacific Northwest is expected to do. My favorite weather is fog: the closest you get to domesticating the eye of a hurricane.</p>
     <p>I don't tell them I'm from a desert--I don't care for psychoanalysis--but I tell them I like precipitation.</p>
     <p>All of it. Always. Even the snow.</p>
