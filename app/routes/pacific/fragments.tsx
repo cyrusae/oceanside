@@ -1,14 +1,18 @@
 // const a = Raw1.value();
 import Scene01 from './fragments/01';
-import Ohio from './fragments/stripe-ohio';
 import Washington from './fragments/stripe-washington';
+import B from './fragments/B';
+import C from './fragments/C';
+import D from './fragments/D';
 
 
 function Fragments() {
  return (
   <div>
    <Scene01 />
-   <Washington />
+   <B />
+   <C />
+   <D />
   </div>
  )
 }

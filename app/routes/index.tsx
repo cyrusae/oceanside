@@ -1,7 +1,6 @@
 import Fragments from "./pacific/fragments";
 import styles from '../styles/coastline.css'
 import { GlacierA, GlacierB, GlacierC } from "./pacific/fragments/poem-glacier";
-import WAVE from "./pacific/fragments/poem-wave";
 import Wham from "./pacific/fragments/stripe-whamline";
 import Footer from "./footer";
 import Define from "./pacific/fragments/quote-clime";
@@ -19,14 +18,6 @@ export default function Index() {
    <main id='water'>
     <div id='beach'>
      <Fragments />
-     <Ode />
-     <GlacierA />
-     <Garden />
-     <Define />
-     <WinSum />
-     <GlacierB />
-     <WAVE />
-     <GlacierC />
     </div>
    </main>
    <Wham />

@@ -3,7 +3,6 @@
 //}
 //Multiple attempts being made to get the caption conditional display to work as intended 
 
-import React, { useState, useEffect } from 'react';
 
 const cap_wa = '"Warming stripes" visualization for the state of Washington, showing an overall increase in warm years and the near-vanishment of cold ones, from 1895 to 2021.'
 
