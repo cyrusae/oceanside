@@ -1,5 +1,5 @@
 {
-  "version": "a3ffe084",
+  "version": "54c1360e",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,21 +34,22 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-Z7MGVLIW.js",
+      "module": "/build/routes/index-VDK7BME3.js",
       "imports": [
         "/build/_shared/chunk-55STOGKM.js",
-        "/build/_shared/chunk-7BHKD5YE.js",
+        "/build/_shared/chunk-QXGK74HZ.js",
+        "/build/_shared/chunk-7W7ZC3BO.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-FEAUHZGH.js",
+        "/build/_shared/chunk-PFTS7FEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
         "/build/_shared/chunk-QMYYXCPS.js",
         "/build/_shared/chunk-B5JRLLQA.js",
         "/build/_shared/chunk-U72DLZZI.js",
+        "/build/_shared/chunk-YS263URK.js",
         "/build/_shared/chunk-RRUZDOV3.js",
-        "/build/_shared/chunk-YH4NGB6E.js",
         "/build/_shared/chunk-W77S3IQN.js",
-        "/build/_shared/chunk-H3FAKBI7.js",
+        "/build/_shared/chunk-C5ADPB5Y.js",
         "/build/_shared/chunk-FYHROETE.js",
         "/build/_shared/chunk-QQ4I4GEK.js"
       ],
@@ -61,7 +62,7 @@
       "id": "routes/metadata/credit",
       "parentId": "root",
       "path": "metadata/credit",
-      "module": "/build/routes/metadata/credit-4QJAWUQW.js",
+      "module": "/build/routes/metadata/credit-7H72JO4H.js",
       "imports": [
         "/build/_shared/chunk-QO7TQTMQ.js"
       ],
@@ -74,18 +75,19 @@
       "id": "routes/pacific/fragments",
       "parentId": "root",
       "path": "pacific/fragments",
-      "module": "/build/routes/pacific/fragments-2YMMXLDH.js",
+      "module": "/build/routes/pacific/fragments-A55ZJ3HW.js",
       "imports": [
-        "/build/_shared/chunk-7BHKD5YE.js",
+        "/build/_shared/chunk-QXGK74HZ.js",
+        "/build/_shared/chunk-7W7ZC3BO.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-FEAUHZGH.js",
+        "/build/_shared/chunk-PFTS7FEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
         "/build/_shared/chunk-QMYYXCPS.js",
         "/build/_shared/chunk-B5JRLLQA.js",
         "/build/_shared/chunk-U72DLZZI.js",
+        "/build/_shared/chunk-YS263URK.js",
         "/build/_shared/chunk-RRUZDOV3.js",
-        "/build/_shared/chunk-YH4NGB6E.js",
         "/build/_shared/chunk-W77S3IQN.js",
         "/build/_shared/chunk-FYHROETE.js",
         "/build/_shared/chunk-QQ4I4GEK.js"
@@ -109,7 +111,7 @@
       "id": "routes/pacific/fragments/B",
       "parentId": "routes/pacific/fragments",
       "path": "B",
-      "module": "/build/routes/pacific/fragments/B-PMLU5UP4.js",
+      "module": "/build/routes/pacific/fragments/B-XVZZPTIL.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -129,7 +131,17 @@
       "id": "routes/pacific/fragments/D",
       "parentId": "routes/pacific/fragments",
       "path": "D",
-      "module": "/build/routes/pacific/fragments/D-RD5CBBBH.js",
+      "module": "/build/routes/pacific/fragments/D-K5D7VKYN.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/here": {
+      "id": "routes/pacific/fragments/here",
+      "parentId": "routes/pacific/fragments",
+      "path": "here",
+      "module": "/build/routes/pacific/fragments/here-MWHB3SVJ.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -232,9 +244,9 @@
       "id": "routes/pacific/fragments/stripe-whamline",
       "parentId": "routes/pacific/fragments",
       "path": "stripe-whamline",
-      "module": "/build/routes/pacific/fragments/stripe-whamline-H4PMI3SP.js",
+      "module": "/build/routes/pacific/fragments/stripe-whamline-3UJ3NZ2Y.js",
       "imports": [
-        "/build/_shared/chunk-H3FAKBI7.js"
+        "/build/_shared/chunk-C5ADPB5Y.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -252,5 +264,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-A3FFE084.js"
+  "url": "/build/manifest-54C1360E.js"
 }

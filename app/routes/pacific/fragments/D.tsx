@@ -23,6 +23,7 @@ export default function D() {
    <Scene21 />
    <Scene23 />
    <Scene24 />
+   <Washington />
    <Scene25 />
    <Scene26 />
    <Garden />
@@ -186,7 +187,6 @@ export function Scene24() {
   <div className='scene' id='twenty4'>
    <div className='content'>
     <p>I find myself wishing I'd gone outside in time for the hail. It's not a texture of ice found much elsewhere, and hasn't gotten old for me yet; I like to eat it.</p>
-    <Washington />
     <p>(When it snowed, my dad was disappointed that I didn't, his words, go play in the snow. So was I, admittedly. I thought: there will be more snow next year. I will do better by myself next year, I think.)</p>
    </div>
   </div>
@@ -407,8 +407,8 @@ export function Scene42() {
  return (
   <div className='scene' id='forty2'>
    <div className='content'>
-    <p>I've lived longer in Seattle than anywhere else in the United States, but not long enough to lose things to the present. I don't have a sense of patterns about it save in the broadest of senses; this is what I know. I check the weather. People ask if it torments me; I tell them I like precipitation.</p>
-    <p>I like the snow.</p>
+    <p>I've lived longer in Seattle than anywhere else in the United States, but not long enough to lose things to the present. I don't have a sense of patterns about it save in the broadest of senses; this is what I know. I check the weather. People ask if it torments me. I don't tell them I'm from a desert, but I tell them I like precipitation.</p>
+    <p>All of it. Always. Even the snow.</p>
     <p>"I'm sorry," I say, for lack of anything else to do.</p>
     <p>"It isn't <i>your</i> fault," he says. "I just wish it could've waited." </p>
    </div>
