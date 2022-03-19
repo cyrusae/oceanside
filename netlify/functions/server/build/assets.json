@@ -1,5 +1,5 @@
 {
-  "version": "e6679d22",
+  "version": "87d6e3a2",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,14 +34,14 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-FRDPZJ46.js",
+      "module": "/build/routes/index-4OSLIB7H.js",
       "imports": [
         "/build/_shared/chunk-55STOGKM.js",
-        "/build/_shared/chunk-3F47G7XT.js",
+        "/build/_shared/chunk-I5JG52TA.js",
         "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-YZLK232H.js",
+        "/build/_shared/chunk-KL2YKXZE.js",
         "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
@@ -76,13 +76,13 @@
       "id": "routes/pacific/fragments",
       "parentId": "root",
       "path": "pacific/fragments",
-      "module": "/build/routes/pacific/fragments-XXFQTDGP.js",
+      "module": "/build/routes/pacific/fragments-VYYGJSN5.js",
       "imports": [
-        "/build/_shared/chunk-3F47G7XT.js",
+        "/build/_shared/chunk-I5JG52TA.js",
         "/build/_shared/chunk-RRUZDOV3.js",
         "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-YZLK232H.js",
+        "/build/_shared/chunk-KL2YKXZE.js",
         "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
@@ -133,7 +133,7 @@
       "id": "routes/pacific/fragments/D",
       "parentId": "routes/pacific/fragments",
       "path": "D",
-      "module": "/build/routes/pacific/fragments/D-MERLOMAL.js",
+      "module": "/build/routes/pacific/fragments/D-XTMZTRM6.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -276,5 +276,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-E6679D22.js"
+  "url": "/build/manifest-87D6E3A2.js"
 }
