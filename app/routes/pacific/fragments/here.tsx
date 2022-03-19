@@ -9,13 +9,3 @@ export default function Here() {
   </div>
  )
 }
-
-//Not using right now: 
-// const [see, setSee] = useState('unsee');
-//onFocus={() => {
-  //   const [see, setSee] = useState('showCap')
-  //  }}
-  //  onBlur={() => {
-  //   const [see, setSee] = useState('')
-  //  }}
-  //    { useState('showCap') || <div>{cap_wa}</div> }
