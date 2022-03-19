@@ -59,7 +59,7 @@ html, body {
 
 #beach > div {
  color: white;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-family: sans-serif;
 }
 
 #one, #forty2 {
@@ -69,11 +69,8 @@ html, body {
 }
 
 .scene {
- padding-top: 1rem;
- padding-bottom: 1rem;
+ padding: 1rem;
  line-height: 150%;
- padding-left: 3rem;
- padding-right: 3rem;
 }
 
 .scene + .scene {
