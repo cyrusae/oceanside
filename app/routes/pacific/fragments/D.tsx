@@ -19,23 +19,23 @@ export default function D() {
    <Scene19 />
    <Scene20 />
    <Define />
-   <Scene21 />
    <Scene22 />
+   <Scene21 />
    <Scene23 />
    <Scene24 />
    <Scene25 />
    <Scene26 />
+   <Garden />
    <Scene27 />
    <Scene28 />
-   <Garden />
    <Scene29 />
    <Scene30 />
    <Scene31 />
    <Scene32 />
    <Scene33 />
    <Scene34 />
-   <Scene35 />
    <Ode />
+   <Scene35 />
    <Scene36 />
    <Scene37 />
    <Scene38 />
@@ -114,7 +114,7 @@ export function Scene18() {
  return (
   <div className='scene' id='eighteen'>
    <div className='content'>
-    <p>He sends me photos. They get more difficult to look at over time, oddly enough.</p>
+    <p>He sends me photos. But they get more difficult to look at over time, oddly enough.</p>
    </div>
   </div>
  )

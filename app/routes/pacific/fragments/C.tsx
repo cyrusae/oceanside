@@ -8,9 +8,9 @@ export default function C() {
    <Scene05 />
    <Scene06 />
    <Scene07 />
-   <WAVE />
    <Scene08 />
    <Scene09 />
+   <WAVE />
    <Scene10 />
    <Scene11 />
    <Scene12 />

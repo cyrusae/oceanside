@@ -1,5 +1,5 @@
 {
-  "version": "9522bac6",
+  "version": "a3ffe084",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,12 +34,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-WCQQ5K64.js",
+      "module": "/build/routes/index-Z7MGVLIW.js",
       "imports": [
         "/build/_shared/chunk-55STOGKM.js",
-        "/build/_shared/chunk-HDHR4H7N.js",
-        "/build/_shared/chunk-CZH3XKRI.js",
-        "/build/_shared/chunk-KBTH2CSW.js",
+        "/build/_shared/chunk-7BHKD5YE.js",
+        "/build/_shared/chunk-AHMXH4UG.js",
+        "/build/_shared/chunk-FEAUHZGH.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
         "/build/_shared/chunk-QMYYXCPS.js",
@@ -74,11 +74,11 @@
       "id": "routes/pacific/fragments",
       "parentId": "root",
       "path": "pacific/fragments",
-      "module": "/build/routes/pacific/fragments-SFC26XDU.js",
+      "module": "/build/routes/pacific/fragments-2YMMXLDH.js",
       "imports": [
-        "/build/_shared/chunk-HDHR4H7N.js",
-        "/build/_shared/chunk-CZH3XKRI.js",
-        "/build/_shared/chunk-KBTH2CSW.js",
+        "/build/_shared/chunk-7BHKD5YE.js",
+        "/build/_shared/chunk-AHMXH4UG.js",
+        "/build/_shared/chunk-FEAUHZGH.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
         "/build/_shared/chunk-QMYYXCPS.js",
@@ -119,7 +119,7 @@
       "id": "routes/pacific/fragments/C",
       "parentId": "routes/pacific/fragments",
       "path": "C",
-      "module": "/build/routes/pacific/fragments/C-6GM2BKFF.js",
+      "module": "/build/routes/pacific/fragments/C-VVPTIVDI.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -129,7 +129,7 @@
       "id": "routes/pacific/fragments/D",
       "parentId": "routes/pacific/fragments",
       "path": "D",
-      "module": "/build/routes/pacific/fragments/D-6NIJOAGG.js",
+      "module": "/build/routes/pacific/fragments/D-RD5CBBBH.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -252,5 +252,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-9522BAC6.js"
+  "url": "/build/manifest-A3FFE084.js"
 }
