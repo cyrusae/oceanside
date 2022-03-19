@@ -72,10 +72,6 @@ html, body {
  background-position: center;
 }
 
-#forty2 {
-  padding-top: 5vh;
-}
-
 #preprekick {
  background: linear-gradient(180deg, rgba(10, 10, 10, 0.85) 0%, rgba(0, 0, 0, 1) 20%) ;
  height: 10vh;
@@ -200,7 +196,7 @@ h5 {
  position: relative;
 }
 
-.scene:not(.hero):not(#forty2):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) + :not(.scene):not(.hero):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) {
+.scene:not(.hero):not(#forty2):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one) + :not(.scene):not(.hero):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one) {
  padding-top: 5rem;
  padding-bottom: 5rem;
 }

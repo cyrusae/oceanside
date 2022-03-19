@@ -64,16 +64,17 @@ html, body {
 
 #one {
  margin-bottom: 3px;
-} 
-
-#one, #forty2 {
  background-image: url('/snow_bg.png');
- background-size: auto auto;
+ background-size: auto;
  background-position: center;
+ background-attachment: fixed;
 }
 
 #forty2 {
-  padding-top: 5vh;
+ background-image: url('/snow_bg.png');
+ background-size: auto auto;
+ padding-top: 5vh;
+ background-position: center;
 }
 
 #preprekick {
@@ -95,7 +96,7 @@ background: linear-gradient(180deg, rgba(103,0,13,1) 0%, rgba(0,0,0,1) 80%);
  padding-right: 3rem;
 }
 
-.scene:not(#one) + .scene:not(#one) {
+.scene:not(#one) + .scene {
  border-top: 2px dotted rgba(360, 360, 360, 0.25);
 }
 
@@ -200,11 +201,10 @@ h5 {
  position: relative;
 }
 
-.scene:not(.hero):not(#forty2):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) + :not(.scene):not(.hero):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) {
- padding-top: 5rem;
- padding-bottom: 5rem;
+aside {
+ margin-top: 5rem;
+ margin-bottom: 5rem;
 }
-
 
 .glacier > img {
  width: 100%;
