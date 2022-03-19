@@ -13,12 +13,12 @@ export default function D() {
    <Scene13 />
    <Scene14 />
    <Ohio />
+   <Scene19 />
    <Scene15 />
-   <Scene16 />
    <Define />
+   <Scene16 />
    <Scene17 />
    <Scene18 />
-   <Scene19 />
    <Scene20 />
    <Scene22 />
    <Odile />
