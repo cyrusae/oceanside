@@ -62,10 +62,6 @@ html, body {
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#one {
- margin-bottom: 3px;
-}
-
 #one, #forty2 {
  background-image: url('/snow_bg.png');
  background-size: cover;
@@ -80,7 +76,7 @@ html, body {
  padding-right: 3rem;
 }
 
-.scene:not(#one) + .scene {
+.scene + .scene {
  border-top: 2px dotted rgba(360, 360, 360, 0.25);
 }
 

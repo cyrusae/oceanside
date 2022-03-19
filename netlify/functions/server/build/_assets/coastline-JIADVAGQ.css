@@ -59,29 +59,17 @@ html, body {
 
 #beach > div {
  color: white;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-family: sans-serif;
 }
 
-#one {
- margin-bottom: 3px;
-}
-
-#one, #forty2 {
+#one, #forty {
  background-image: url('/snow_bg.png');
  background-size: cover;
  background-position: center;
 }
 
 .scene {
- padding-top: 1rem;
- padding-bottom: 1rem;
- line-height: 150%;
- padding-left: 3rem;
- padding-right: 3rem;
-}
-
-.scene:not(#one) + .scene {
- border-top: 2px dotted rgba(360, 360, 360, 0.25);
+ padding: 1rem;
 }
 
 /* Links */

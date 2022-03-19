@@ -59,11 +59,7 @@ html, body {
 
 #beach > div {
  color: white;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#one {
- margin-bottom: 3px;
+ font-family: sans-serif;
 }
 
 #one, #forty2 {
@@ -76,12 +72,10 @@ html, body {
  padding-top: 1rem;
  padding-bottom: 1rem;
  line-height: 150%;
- padding-left: 3rem;
- padding-right: 3rem;
 }
 
-.scene:not(#one) + .scene {
- border-top: 2px dotted rgba(360, 360, 360, 0.25);
+.scene + .scene {
+ border-top: 2px solid white;
 }
 
 /* Links */
