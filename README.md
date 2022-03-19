@@ -5,16 +5,17 @@ Format: Remix.js website
 Purpose: Hosting CHID 480 final project 
 - (Static content, dynamic rendering, read-only)
 
-Status: Work in progress 
+Status: Beta version [live on Netlify](https://oceanside-essay.netlify.app)
 
-Status of this page: Also a work in progress 
+Status of this README: Updates pending me recovering from surgery; until then, `big pause`
+
 
 ## Update: March
 
-***The March update supersedes my earlier plans and means some features (such as `gradience`) will be updates later in the site's life. v1.0.0 will still be up March 18th, 2022.***
+A full draft of the essay and a functioning framework are live. [Check the issues on this repo](https://github.com/cyrusae/oceanside/issues) for my to-do list.
 
-Due to the amount my life got derailed by moving in mid-February (let's not talk about it save to note that I didn't have access to the computer I code on for three straight weeks and I'm existentially offended by this), and the fact that my university runs on a quarter system so by the time I got my head more or less above water it was finals, the first production version of this essay will be more hard-/hand-coded than I'd otherwise have preferred.
+Bringing this README up to date is pending (current sprint stop date is March 18th 2022); to see the original roadmap, [click here](READMENOT.md).
 
-And that's okay.
+Greatest concern on my return: elaborated captions for personal photos; parallax backgrounds; animations trigger once visible and respond to reduced motion settings.
 
-***Bringing this version up to date is pending (current sprint stop date is March 18th 2022); to see the original roadmap, [click here](READMENOT.md).***
+For play-by-plays, as usual, [see the ~~p~~**logs**](https://github.com/cyrusae/logs).
