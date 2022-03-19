@@ -23,19 +23,16 @@ export default function Metadata() {
     <li>"No Longer Ode" by Urayoán Noel</li>
    </ul>
    Other sources:
-   <ul></ul>
+   <ul>Kyle Whyte, "Braiding Kinship and Time" (lecture on Indigenous climate justice)</ul>
    <h5>Images</h5>
    <p>Climate stripes generated via <a href='https://showyourstripes.info'>Show Your Stripes</a>.</p>
    <p>Todos Santos photographs copyright Howard Ekman, used with permission.</p>
    <p>Seattle smoke summer photographs depict the Chihuly Sculpture Garden at Seattle Center and are by the author.</p>
-   <p>Aerial climate photographs by NASA.</p>
+   <p>Map via Google Maps. Imagery copyright Data SIO, NOAA, U.S. Navy, NGBA, GEBCO, Landsat/Copernicus, IBCAO. Map data copyright INEGI and Google.</p>
    Image assets from PNGtree:
    <ul>
     <li><a href='https://pngtree.com/freepng/heavy-snow_3723954.html'>"heavy snow" background</a></li>
-    <li>Black clouds background</li>
-    <li>Black mist background #1</li>
-    <li>Black mist background #2</li>
-    <li>Fire and sparks background</li>
+
    <li><i>Frames used for "Thirteen Ways of Looking at a Glacier":</i>
    <ul>
     <li>Blue smoke frame #1</li>
@@ -61,3 +58,13 @@ export default function Metadata() {
    <div id='goback'><a href='/'>Back to the essay</a></div>
   </div>
   ) }
+
+/* Later:
+   
+   <p>Aerial climate photographs by NASA.</p>
+
+       <li>Black clouds background</li>
+    <li>Black mist background #1</li>
+    <li>Black mist background #2</li>
+    <li>Fire and sparks background</li>
+*/

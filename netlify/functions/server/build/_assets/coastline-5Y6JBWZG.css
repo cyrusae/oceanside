@@ -112,7 +112,7 @@ img {
 }
 
 [role=img] {
- background-color: rgba(360, 360, 360, 0.7);
+ background-color: rgba(360, 360, 360, 0.8);
  padding: 1rem;
  position: relative;
 }
@@ -121,11 +121,6 @@ img {
  background-image: url('/stripes_wa.png');
  background-size: cover;
 } 
-
-#Here .img {
- background-image: url('/you_are_here.png');
- background-size: cover;
-}
 
 #Charden1 .img {
  background-image: url('/photos/chi_ver_gard1.jpeg');

@@ -1,10 +1,12 @@
 import { json } from "remix"
+import Here from "./here"
 import { GlacierA } from "./poem-glacier"
 
 export default function B() {
  return (
   <>
    <Scene02 />
+   <Here />
    <Scene03 />
    <Scene04 />
    <GlacierA />

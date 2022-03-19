@@ -18,8 +18,10 @@ export default function Index() {
    <main id='water'>
     <div id='beach'>
      <Fragments />
+     <div id='preprekick'></div>
     </div>
    </main>
+   <div id='prekick'></div>
    <Wham />
    <Footer />
   </div>

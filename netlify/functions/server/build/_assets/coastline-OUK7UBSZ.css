@@ -72,15 +72,15 @@ html, body {
  background-position: center;
 }
 
-#preprekick {
- background: linear-gradient(180deg, rgba(10, 10, 10, 0.85) 0%, rgba(0, 0, 0, 1) 20%) ;
- height: 10vh;
+#forty2 {
+ margin-bottom: -10vh;
+ background: linear-gradient(180deg, rgba(10, 10, 10, 0.85) 0%, rgba(0,0,0,0) 100%);
 }
 
 #prekick {
-background: linear-gradient(180deg, rgba(103,0,13,1) 0%, rgba(0,0,0,1) 80%);
- height: 20vh;
- margin-top: -22vh;
+ background: rgb(103,0,13);
+ background: linear-gradient(180deg, rgba(103,0,13,1) 0%, rgba(0,0,0,1) 100%);
+ height: 10vh;
 }
 
 .scene {
@@ -112,7 +112,7 @@ img {
 }
 
 [role=img] {
- background-color: rgba(360, 360, 360, 0.7);
+ background-color: rgba(360, 360, 360, 0.8);
  padding: 1rem;
  position: relative;
 }
@@ -121,11 +121,6 @@ img {
  background-image: url('/stripes_wa.png');
  background-size: cover;
 } 
-
-#Here .img {
- background-image: url('/you_are_here.png');
- background-size: cover;
-}
 
 #Charden1 .img {
  background-image: url('/photos/chi_ver_gard1.jpeg');

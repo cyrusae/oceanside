@@ -1,5 +1,5 @@
 {
-  "version": "a3ffe084",
+  "version": "e564a1fa",
   "entry": {
     "module": "/build/entry.client-UZKE3B5F.js",
     "imports": [
@@ -34,23 +34,25 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-Z7MGVLIW.js",
+      "module": "/build/routes/index-BA6HY4KH.js",
       "imports": [
         "/build/_shared/chunk-55STOGKM.js",
-        "/build/_shared/chunk-7BHKD5YE.js",
+        "/build/_shared/chunk-6INMIAXT.js",
+        "/build/_shared/chunk-RRUZDOV3.js",
+        "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-FEAUHZGH.js",
+        "/build/_shared/chunk-7732PQY6.js",
+        "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
         "/build/_shared/chunk-QMYYXCPS.js",
         "/build/_shared/chunk-B5JRLLQA.js",
         "/build/_shared/chunk-U72DLZZI.js",
-        "/build/_shared/chunk-RRUZDOV3.js",
-        "/build/_shared/chunk-YH4NGB6E.js",
+        "/build/_shared/chunk-C4VSDSD2.js",
         "/build/_shared/chunk-W77S3IQN.js",
-        "/build/_shared/chunk-H3FAKBI7.js",
-        "/build/_shared/chunk-FYHROETE.js",
-        "/build/_shared/chunk-QQ4I4GEK.js"
+        "/build/_shared/chunk-C5ADPB5Y.js",
+        "/build/_shared/chunk-QYEI6GMA.js",
+        "/build/_shared/chunk-FYHROETE.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -61,7 +63,7 @@
       "id": "routes/metadata/credit",
       "parentId": "root",
       "path": "metadata/credit",
-      "module": "/build/routes/metadata/credit-4QJAWUQW.js",
+      "module": "/build/routes/metadata/credit-NSGJ5EDD.js",
       "imports": [
         "/build/_shared/chunk-QO7TQTMQ.js"
       ],
@@ -74,21 +76,23 @@
       "id": "routes/pacific/fragments",
       "parentId": "root",
       "path": "pacific/fragments",
-      "module": "/build/routes/pacific/fragments-2YMMXLDH.js",
+      "module": "/build/routes/pacific/fragments-FYJQXT6O.js",
       "imports": [
-        "/build/_shared/chunk-7BHKD5YE.js",
+        "/build/_shared/chunk-6INMIAXT.js",
+        "/build/_shared/chunk-RRUZDOV3.js",
+        "/build/_shared/chunk-HBOPB73Y.js",
         "/build/_shared/chunk-AHMXH4UG.js",
-        "/build/_shared/chunk-FEAUHZGH.js",
+        "/build/_shared/chunk-7732PQY6.js",
+        "/build/_shared/chunk-QQ4I4GEK.js",
         "/build/_shared/chunk-GSTX3HMH.js",
         "/build/_shared/chunk-J4S2BXJH.js",
         "/build/_shared/chunk-QMYYXCPS.js",
         "/build/_shared/chunk-B5JRLLQA.js",
         "/build/_shared/chunk-U72DLZZI.js",
-        "/build/_shared/chunk-RRUZDOV3.js",
-        "/build/_shared/chunk-YH4NGB6E.js",
+        "/build/_shared/chunk-C4VSDSD2.js",
         "/build/_shared/chunk-W77S3IQN.js",
-        "/build/_shared/chunk-FYHROETE.js",
-        "/build/_shared/chunk-QQ4I4GEK.js"
+        "/build/_shared/chunk-QYEI6GMA.js",
+        "/build/_shared/chunk-FYHROETE.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -109,7 +113,7 @@
       "id": "routes/pacific/fragments/B",
       "parentId": "routes/pacific/fragments",
       "path": "B",
-      "module": "/build/routes/pacific/fragments/B-PMLU5UP4.js",
+      "module": "/build/routes/pacific/fragments/B-BZBJ6KZD.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -129,7 +133,17 @@
       "id": "routes/pacific/fragments/D",
       "parentId": "routes/pacific/fragments",
       "path": "D",
-      "module": "/build/routes/pacific/fragments/D-RD5CBBBH.js",
+      "module": "/build/routes/pacific/fragments/D-VLKXDVWJ.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/here": {
+      "id": "routes/pacific/fragments/here",
+      "parentId": "routes/pacific/fragments",
+      "path": "here",
+      "module": "/build/routes/pacific/fragments/here-QNRQ2YMY.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -140,6 +154,16 @@
       "parentId": "routes/pacific/fragments",
       "path": "photos_chi",
       "module": "/build/routes/pacific/fragments/photos_chi-TN6XK4KV.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/pacific/fragments/photos_odile": {
+      "id": "routes/pacific/fragments/photos_odile",
+      "parentId": "routes/pacific/fragments",
+      "path": "photos_odile",
+      "module": "/build/routes/pacific/fragments/photos_odile-X42WK4FM.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -232,9 +256,9 @@
       "id": "routes/pacific/fragments/stripe-whamline",
       "parentId": "routes/pacific/fragments",
       "path": "stripe-whamline",
-      "module": "/build/routes/pacific/fragments/stripe-whamline-H4PMI3SP.js",
+      "module": "/build/routes/pacific/fragments/stripe-whamline-3UJ3NZ2Y.js",
       "imports": [
-        "/build/_shared/chunk-H3FAKBI7.js"
+        "/build/_shared/chunk-C5ADPB5Y.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -252,5 +276,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-A3FFE084.js"
+  "url": "/build/manifest-E564A1FA.js"
 }

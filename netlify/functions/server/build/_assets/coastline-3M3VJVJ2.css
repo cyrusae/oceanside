@@ -112,7 +112,7 @@ img {
 }
 
 [role=img] {
- background-color: rgba(360, 360, 360, 0.7);
+ background-color: rgba(360, 360, 360, 0.8);
  padding: 1rem;
  position: relative;
 }
