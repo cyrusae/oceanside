@@ -65,16 +65,15 @@ html, body {
 #one {
  margin-bottom: 3px;
  background-image: url('/snow_bg.png');
- background-size: auto;
+ background-size: cover;
  background-position: center;
- background-attachment: fixed;
 }
 
 #forty2 {
  background-image: url('/snow_bg.png');
  background-size: auto auto;
- padding-top: 5vh;
  background-position: center;
+ background-attachment: fixed;
 }
 
 #preprekick {

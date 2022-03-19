@@ -74,6 +74,7 @@ html, body {
  background-image: url('/snow_bg.png');
  background-size: auto auto;
  padding-top: 5vh;
+ margin-top: -4vh;
  background-position: center;
 }
 

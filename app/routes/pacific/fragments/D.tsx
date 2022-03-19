@@ -13,19 +13,18 @@ export default function D() {
    <Scene13 />
    <Scene14 />
    <Ohio />
+   <Scene19 />
    <Scene15 />
+   <Define />
    <Scene16 />
    <Scene17 />
    <Scene18 />
-   <Scene19 />
    <Scene20 />
-   <Define />
    <Scene22 />
-   <Scene21 />
    <Odile />
+   <Scene21 />
    <Scene23 />
    <Scene24 />
-   <Washington />
    <Scene25 />
    <Scene26 />
    <Garden />
@@ -33,6 +32,7 @@ export default function D() {
    <Scene28 />
    <Scene29 />
    <Scene30 />
+   <WinSum />
    <Scene31 />
    <Scene32 />
    <Scene33 />
@@ -42,7 +42,7 @@ export default function D() {
    <Scene36 />
    <Scene37 />
    <Scene38 />
-   <WinSum />
+   <Washington />
    <Scene39 />
    <Scene40 />
    <Scene41 />
@@ -151,7 +151,9 @@ export function Scene21() {
  return (
   <div className='scene' id='twenty1'>
    <div className='content'>
-    <p>He sent me photos. In the end, I can't quite bring myself to describe them in time. I promise myself I'll come back to it.</p>
+    <p>He sent me photos.</p> 
+    <p>I struggle to describe them.</p>
+    <p>I remind myself that I owe that to other people. I promise myself I'll come back to it.</p>
    </div>
   </div>
  )
@@ -178,7 +180,8 @@ export function Scene23() {
    <div className='content'>
     <p>It is January, and I still live in Bellevue. In the time between an afternoon's worth of this class and staying behind after, the rain that my partner hoped signaled a break from the snow has turned to hail.</p>
     <p>I check the window. I come back. I'm sorry if there's background noise, I say to my instructor. It's hail.</p>
-    <p>There's a particular sort of smile I'm familiar with, when people are trying to tone down the impact of talking about the weather. It's there when he says it's not supposed to hail.</p>
+    <p>There's a particular sort of smile I'm familiar with, when people are trying to tone down the impact of talking about the weather. The strain of trying to offset tension when there's nowhere to offset it to.</p>
+    <p>It's there when he says: It's not supposed to hail.</p>
    </div>
   </div>
  )
@@ -409,7 +412,9 @@ export function Scene42() {
  return (
   <div className='scene' id='forty2'>
    <div className='content'>
-    <p>I've lived longer in Seattle than anywhere else in the United States, but not long enough to lose things to the present. I don't have a sense of patterns about it save in the broadest of senses; this is what I know. I check the weather. People ask if it torments me. I don't tell them I'm from a desert, but I tell them I like precipitation.</p>
+    <p>I've lived longer in Seattle than anywhere else in the United States, but not long enough to lose things to the present. I don't have a sense of patterns about it save in the broadest of senses; this is what I know. </p>
+    <p>I check the weather. People ask if it torments me, as the Pacific Northwest is expected to do. My favorite weather is fog: the closest you get to domesticating the eye of a hurricane.</p>
+    <p>I don't tell them I'm from a desert--I don't care for psychoanalysis--but I tell them I like precipitation.</p>
     <p>All of it. Always. Even the snow.</p>
     <p>"I'm sorry," I say, for lack of anything else to do.</p>
     <p>"It isn't <i>your</i> fault," he says. "I just wish it could've waited." </p>
