@@ -72,28 +72,6 @@ html, body {
  background-position: center;
 }
 
-#fourteen, #twenty3, #forty {
- background-image: url('/snow_bg.png');
- background-size: auto;
- background-position: center;
- background-attachment: fixed;
-}
-
-#two, #three, #six {
- background-image: url('/rain_bg.png');
- background-position: cover;
- background-blend-mode: multiply;
- background-position: center;
- background-attachment: fixed;
-}
-
-#twenty5, #twenty6, #twenty7, #thirty8, #thirty9 {
- background-image: url('/smoke_bg.png');
- background-position: center;
- background-attachment: fixed;
- background-size: auto;
-}
-
 #forty2 {
   padding-top: 5vh;
 }
@@ -143,8 +121,6 @@ img {
  margin-top: 20px;
  margin-bottom: 20px;
  position: relative;
- margin-top: 20px;
- margin-bottom: 20px;
 }
 
 #Washington .img {
@@ -224,7 +200,7 @@ h5 {
  position: relative;
 }
 
-.scene:not(.hero):not(aside):not(#forty2):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) + :not(.scene):not(.hero):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]):not(aside) {
+.scene:not(.hero):not(#forty2):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) + :not(.scene):not(.hero):not(.img):not(#Odile):not(#Charden1):not(#Charden2):not(#one):not([role=img]) {
  padding-top: 5rem;
  padding-bottom: 5rem;
 }
